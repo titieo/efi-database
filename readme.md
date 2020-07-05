@@ -1,7 +1,7 @@
 # Hackintosh Bootloader EFI
 
 ### Với các những phần cứng có kèm theo link tức đó là sản phầm của người đó nhé! Còn không có gì thì là của lzhoang2601
-### Vui lòng không liên hệ với các chủ sở hữu với lí do xin EFI, có thể là lợi ích cho bạn nhưng sẽ phiền tới người ta, nếu vấn đề này mình gặp nhiều thì mình sẽ bỏ repo này đi luôn. Vì vậy mọi người hãy chờ đến ngày 01/08/2020 nhé!
+### Repo sẽ công khai vào ngày 01/08/2020 nhé mọi người!
 
 ## Desktop (iGPU)
 + Asrock H310 CM HDV (https://www.facebook.com/son01490517)
