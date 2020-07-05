@@ -1,4 +1,6 @@
-Hackintosh Bootloader EFI
+#Hackintosh Bootloader EFI
+
+### Với các những phần cứng có kèm theo link facebook tức đó là sản phầm của người đó nhé! Còn không có gì thì là của lzhoang2601
 
 ## Desktop (iGPU)
 + Asrock H310 CM HDV (https://www.facebook.com/son01490517)
@@ -100,41 +102,41 @@ Hackintosh Bootloader EFI
 + Dell Vostro 5459 (https://www.facebook.com/lamtanloc.quataodo93)
 + Dell XPS 7590
 + Dell XPS 9360
-## Laptop (HP)
-+ HP Elitebook 2x60p
-+ HP Elitebook 2x70p
-+ HP Elitebook 8x0 G1
-+ HP Elitebook 8x0 G4
-+ HP Elitebook 8x60p
-+ HP Elitebook 8x60w
-+ HP Elitebook 8x70p
-+ HP Elitebook 9x70
-+ HP EliteBook 1030 G1
-+ HP EliteBook 1040 G3
-+ HP EliteBook 1050 G1
-+ HP EliteBook Folio 1020 G1
-+ HP Elitebook Folio 1040 G1
-+ HP Elitebook Folio 9470m
-+ HP Elitebook Folio 9480M
+## Laptop (HP) 
++ HP Elitebook 2x60p (https://github.com/RehabMan)
++ HP Elitebook 2x70p (https://github.com/RehabMan)
++ HP Elitebook 8x0 G1 (https://github.com/RehabMan)
++ HP Elitebook 8x0 G4 (https://github.com/RehabMan)
++ HP Elitebook 8x60p (https://github.com/RehabMan)
++ HP Elitebook 8x60w (https://github.com/RehabMan)
++ HP Elitebook 8x70p (https://github.com/RehabMan)
++ HP Elitebook 9x70 (https://github.com/RehabMan)
++ HP EliteBook 1030 G1 (https://github.com/RehabMan)
++ HP EliteBook 1040 G3 (https://github.com/RehabMan)
++ HP EliteBook 1050 G1 (https://github.com/RehabMan)
++ HP EliteBook Folio 1020 G1 (https://github.com/RehabMan)
++ HP Elitebook Folio 1040 G1 (https://github.com/RehabMan)
++ HP Elitebook Folio 9470m (https://github.com/RehabMan)
++ HP Elitebook Folio 9480M (https://github.com/RehabMan)
 + HP Notebook 14 AC170TU (https://www.facebook.com/tranwang1102)
-+ HP Notebook 15 AY131TU
-+ HP Probook 3x0 G1
-+ HP Probook 4x0
-+ HP Probook 4x0 G0
-+ HP Probook 4x0 G1/G2
-+ HP ProBook 4x0 G3
-+ HP ProBook 4x0 G4
-+ HP ProBook 4x0 G5
-+ HP Probook 4x30s
-+ HP Probook 4x40s
-+ HP Probook 6x0
-+ HP Probook 6x60b
-+ HP Probook 6x70b
-+ HP Probook 8x0
-+ HP Probook 9x80
-+ HP Probook 4230S
++ HP Notebook 15 AY131TU (https://github.com/RehabMan)
++ HP Probook 3x0 G1 (https://github.com/RehabMan)
++ HP Probook 4x0 (https://github.com/RehabMan)
++ HP Probook 4x0 G0 (https://github.com/RehabMan)
++ HP Probook 4x0 G1/G2 (https://github.com/RehabMan)
++ HP ProBook 4x0 G3 (https://github.com/RehabMan)
++ HP ProBook 4x0 G4 (https://github.com/RehabMan)
++ HP ProBook 4x0 G5 (https://github.com/RehabMan)
++ HP Probook 4x30s (https://github.com/RehabMan)
++ HP Probook 4x40s (https://github.com/RehabMan)
++ HP Probook 6x0 (https://github.com/RehabMan)
++ HP Probook 6x60b (https://github.com/RehabMan)
++ HP Probook 6x70b (https://github.com/RehabMan)
++ HP Probook 8x0 (https://github.com/RehabMan)
++ HP Probook 9x80 (https://github.com/RehabMan)
++ HP Probook 4230S (https://github.com/RehabMan)
 + HP ZBook G1
-+ HP ZBook G2
++ HP ZBook G2 (https://github.com/RehabMan)
 + HP ZBook G3
 ## Laptop (Lenovo)
 + Lenovo IdeadPad 110 15ISK (https://www.facebook.com/son01490517)
