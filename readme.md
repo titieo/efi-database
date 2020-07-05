@@ -1,6 +1,6 @@
 Hackintosh Bootloader EFI
 
-- Desktop (iGPU)
+## Desktop (iGPU)
 + Asrock H310 CM HDV (https://www.facebook.com/son01490517)
 + MSI B360 (https://www.facebook.com/son01490517)
 + Dell 9020 SFF (https://www.facebook.com/son01490517)
@@ -14,7 +14,7 @@ Hackintosh Bootloader EFI
 + I3-9100 + Asrock B365 Phantom Gaming 4
 + I5-9600K + B365M Aorus Elite
 + Samsung AIO
-- Desktop (iGPU + dGPU)
+## Desktop (iGPU + dGPU)
 + Gigabyte X299 + I9-7980X (https://www.facebook.com/son01490517)
 + Gigabyte X299 Aourus Master + I9-7920x (https://www.facebook.com/son01490517)
 + Gigabyte Z390 Aurous Ultra (https://www.facebook.com/son01490517)
@@ -42,12 +42,12 @@ Hackintosh Bootloader EFI
 + X99 (https://www.facebook.com/son01490517)
 + XEON E5 1620V3 + MSI X99A SLI PLUS
 + MSI Z490 Tomahawk (https://www.facebook.com/son01490517)
-- Laptop (Acer)  
+## Laptop (Acer)  
 + Acer Aspire A715-72G
 + Acer Aspire V3-572
 + Acer F5 573G 55PJ
 + Acer Swift SF314-51
-- Laptop (Asus)
+## Laptop (Asus)
 + ASUS K56CB
 + Asus K501 (https://www.facebook.com/son01490517)
 + ASUS K501LX
@@ -65,7 +65,7 @@ Hackintosh Bootloader EFI
 + Asus Zenbook UX410 (https://www.facebook.com/lbhiep)
 + Asus Zenbook UX430 (https://www.facebook.com/lbhiep)
 + Asus Zenbook UX510 (https://www.facebook.com/lbhiep)
-- Laptop (Dell)
+## Laptop (Dell)
 + Dell Alienware 13 R3 (https://www.facebook.com/son01490517)
 + Dell Alienware 15 R3
 + Dell G7 7590
@@ -100,7 +100,7 @@ Hackintosh Bootloader EFI
 + Dell Vostro 5459 (https://www.facebook.com/lamtanloc.quataodo93)
 + Dell XPS 7590
 + Dell XPS 9360
-- Laptop (HP)
+## Laptop (HP)
 + HP Elitebook 2x60p
 + HP Elitebook 2x70p
 + HP Elitebook 8x0 G1
@@ -136,7 +136,7 @@ Hackintosh Bootloader EFI
 + HP ZBook G1
 + HP ZBook G2
 + HP ZBook G3
-- Laptop (Lenovo)
+## Laptop (Lenovo)
 + Lenovo IdeadPad 110 15ISK (https://www.facebook.com/son01490517)
 + Lenovo IdeadPad 330S (https://www.facebook.com/son01490517)
 + Lenovo Ideadpad 500S (https://www.facebook.com/son01490517)
@@ -147,7 +147,7 @@ Hackintosh Bootloader EFI
 + Lenovo Thinkpad T450
 + Lenovo Thinkpad T450s  (https://www.facebook.com/son01490517)
 + Lenovo Thinkpad X240 (https://www.facebook.com/son01490517)
-- Laptop (MSI)
+## Laptop (MSI)
 + MSI CX62 6QD (https://www.facebook.com/son01490517)
 + MSI GF63 8RD (https://www.facebook.com/son01490517)
 + MSI GP63 8RD (https://www.facebook.com/son01490517)
