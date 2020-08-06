@@ -1,0 +1,71 @@
+9:206  0:229  Found UEFI Acpi 2.0 RSDP at 9AFFE014
+9:206  0:000  Saving ACPI tables from RSDP 9AFFE014 to EFI\CLOVER\ACPI\origin ...
+9:206  0:000   9AFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:206  0:000    (Xsdt: 9AFFE210, Rsdt: 9AFFE124)
+9:206  0:000    9AFFE210: 'XSDT', 'CL09', Rev: 1, Len: 164
+9:206  0:000    9AFFE124: 'RSDT', 'CL09', Rev: 1, Len: 100
+9:206  0:000    Tables in Xsdt: 16
+9:206  0:000    0. 9AFF9000: 'FACP', 'CL09', Rev: 5, Len: 268
+9:206  0:000        (Dsdt: 9AFEA000, Facs: 9AFB8000, XDsdt: 9AFEA000, XFacs: 0)
+9:206  0:000        9AFEA000: 'DSDT', 'CL09', Rev: 1, Len: 47621
+9:207  0:001        9AFB8000: 'FACS', Ver: 2, Len: 64
+9:207  0:000    1. 9AFFD000: 'UEFI', 'CL09', Rev: 1, Len: 566
+9:207  0:000    2. 9AFFB000: 'FPDT', 'CL09', Rev: 1, Len: 68
+9:207  0:000    3. 9AFFA000: 'ASF!', 'CL09', Rev: 32, Len: 165
+9:207  0:000    4. 9AFF8000: 'HPET', 'CL09', Rev: 1, Len: 56
+9:207  0:000    5. 9AFF7000: 'APIC', 'CL09', Rev: 3, Len: 140
+9:207  0:000    6. 9AFF6000: 'MCFG', 'CL09', Rev: 1, Len: 60
+9:207  0:000    7. 9AFE9000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1790
+9:207  0:000    8. 9AFE7000: 'BOOT', 'CL09', Rev: 1, Len: 40
+9:207  0:000    9. 9AFE6000: 'LPIT', 'CL09', Rev: 1, Len: 148
+9:207  0:000    10. 9AFE4000: 'ASPT', 'CL09', Rev: 7, Len: 52
+9:207  0:000    11. 9AFE3000: 'DBGP', 'CL09', Rev: 1, Len: 52
+9:207  0:000    12. 9AFDD000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1337
+9:207  0:000    13. 9AFDC000: 'SSDT', 'CRV ORB', Rev: 1, Len: 2776
+9:207  0:000    14. 9AFD8000: 'SSDT', 'CRV ORB', Rev: 1, Len: 13662
+9:207  0:000    15. 9AFD6000: 'SSDT', 'CRV ORB', Rev: 1, Len: 7741
+9:207  0:000    Tables in Rsdt: 16
+9:207  0:000    0. 9AFF9000: 'FACP', 'CL09', Rev: 5, Len: 268
+9:207  0:000        (Dsdt: 9AFEA000, Facs: 9AFB8000, XDsdt: 9AFEA000, XFacs: 0)
+9:207  0:000        9AFEA000: 'DSDT', 'CL09', Rev: 1, Len: 47621
+9:208  0:001        9AFB8000: 'FACS', Ver: 2, Len: 64
+9:208  0:000    1. 9AFFD000: 'UEFI', 'CL09', Rev: 1, Len: 566
+9:208  0:000    2. 9AFFB000: 'FPDT', 'CL09', Rev: 1, Len: 68
+9:208  0:000    3. 9AFFA000: 'ASF!', 'CL09', Rev: 32, Len: 165
+9:208  0:000    4. 9AFF8000: 'HPET', 'CL09', Rev: 1, Len: 56
+9:208  0:000    5. 9AFF7000: 'APIC', 'CL09', Rev: 3, Len: 140
+9:208  0:000    6. 9AFF6000: 'MCFG', 'CL09', Rev: 1, Len: 60
+9:208  0:000    7. 9AFE9000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1790
+9:208  0:000    8. 9AFE7000: 'BOOT', 'CL09', Rev: 1, Len: 40
+9:208  0:000    9. 9AFE6000: 'LPIT', 'CL09', Rev: 1, Len: 148
+9:208  0:000    10. 9AFE4000: 'ASPT', 'CL09', Rev: 7, Len: 52
+9:208  0:000    11. 9AFE3000: 'DBGP', 'CL09', Rev: 1, Len: 52
+9:208  0:000    12. 9AFDD000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1337
+9:208  0:000    13. 9AFDC000: 'SSDT', 'CRV ORB', Rev: 1, Len: 2776
+9:208  0:000    14. 9AFD8000: 'SSDT', 'CRV ORB', Rev: 1, Len: 13662
+9:208  0:000    15. 9AFD6000: 'SSDT', 'CRV ORB', Rev: 1, Len: 7741
+9:208  0:000  Found UEFI Acpi 1.0 RSDP at 9AFFE000
+9:209  0:000  Printing ACPI tables from RSDP 9AFFE000 ...
+9:209  0:000   9AFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+9:209  0:000    (Rsdt: 9AFFE038)
+9:209  0:000    9AFFE038: 'RSDT', 'CL09', Rev: 1, Len: 100
+9:209  0:000    Tables in Rsdt: 16
+9:209  0:000    0. 9AFF9000: 'FACP', 'CL09', Rev: 5, Len: 268
+9:209  0:000        (Dsdt: 9AFEA000, Facs: 9AFB8000, XDsdt: 9AFEA000, XFacs: 0)
+9:209  0:000        9AFEA000: 'DSDT', 'CL09', Rev: 1, Len: 47621
+9:210  0:001        9AFB8000: 'FACS', Ver: 2, Len: 64
+9:210  0:000    1. 9AFFD000: 'UEFI', 'CL09', Rev: 1, Len: 566
+9:210  0:000    2. 9AFFB000: 'FPDT', 'CL09', Rev: 1, Len: 68
+9:210  0:000    3. 9AFFA000: 'ASF!', 'CL09', Rev: 32, Len: 165
+9:210  0:000    4. 9AFF8000: 'HPET', 'CL09', Rev: 1, Len: 56
+9:210  0:000    5. 9AFF7000: 'APIC', 'CL09', Rev: 3, Len: 140
+9:210  0:000    6. 9AFF6000: 'MCFG', 'CL09', Rev: 1, Len: 60
+9:210  0:000    7. 9AFE9000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1790
+9:210  0:000    8. 9AFE7000: 'BOOT', 'CL09', Rev: 1, Len: 40
+9:210  0:000    9. 9AFE6000: 'LPIT', 'CL09', Rev: 1, Len: 148
+9:210  0:000    10. 9AFE4000: 'ASPT', 'CL09', Rev: 7, Len: 52
+9:210  0:000    11. 9AFE3000: 'DBGP', 'CL09', Rev: 1, Len: 52
+9:210  0:000    12. 9AFDD000: 'SSDT', 'CRV ORB', Rev: 1, Len: 1337
+9:210  0:000    13. 9AFDC000: 'SSDT', 'CRV ORB', Rev: 1, Len: 2776
+9:210  0:000    14. 9AFD8000: 'SSDT', 'CRV ORB', Rev: 1, Len: 13662
+9:210  0:000    15. 9AFD6000: 'SSDT', 'CRV ORB', Rev: 1, Len: 7741

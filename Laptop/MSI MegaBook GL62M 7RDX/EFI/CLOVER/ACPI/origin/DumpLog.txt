@@ -1,0 +1,128 @@
+7:919  0:037  Found UEFI Acpi 2.0 RSDP at %p
+7:919  0:000  Saving ACPI tables from RSDP %p to Âçí‚ÅÑÂëê‚Åí‰µ∂‰•ì‰πü…Ç„Ä®Á≤Ω$ ...
+7:919  0:000   %p: 'RSD PTR vMSI_NB(0Ω|$', Rev: 1956361559 (Acpi 2.0 or newer), Len: 36
+7:919  0:000    (Xsdt: %p, Rsdt: %p)
+7:919  0:000    %p: 'XSDTÏ', 'XSDT', Rev: 1956361383, Len: 1
+7:919  0:000    %p: 'RSDTà', 'RSDT', Rev: 1956361383, Len: 1
+7:919  0:000    Tables in Xsdt: 25
+7:919  0:000    0. %p: 'FACP', 'FACP', Rev: 1956361383, Len: 6
+7:919  0:000        (Dsdt: 7CBD3238, Facs: 7CFA1C40, XDsdt: 7cbd3238, XFacs: 0)
+7:919  0:000        %p: 'DSDTéÅ', 'DSDT', Rev: 1956361239, Len: 2
+7:922  0:002        %p: 'FACS@', Ver: 1956361403, Len: 2
+7:922  0:000    1. %p: 'APICÑ', 'APIC', Rev: 1956361383, Len: 3
+7:922  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1956361383, Len: 1
+7:922  0:000    3. %p: 'ECDT¡', 'ECDT', Rev: 1956361383, Len: 1
+7:922  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1956361383, Len: 1
+7:922  0:000    5. %p: 'SSDT"', 'SSDT', Rev: 1956361383, Len: 1
+7:922  0:000    6. %p: 'FIDTú', 'FIDT', Rev: 1956361383, Len: 1
+7:922  0:000    7. %p: 'SLICv', 'SLIC', Rev: 1956361383, Len: 1
+7:922  0:000    8. %p: 'SSDT1', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    9. %p: 'SSDTq'', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    10. %p: 'HPET8', 'HPET', Rev: 1956361383, Len: 1
+7:922  0:000    11. %p: 'SSDT˚]', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    12. %p: 'SSDTÂ', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    13. %p: 'UEFIB', 'UEFI', Rev: 1956361383, Len: 1
+7:922  0:000    14. %p: 'SSDTﬁ', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    15. %p: 'LPITî', 'LPIT', Rev: 1956361383, Len: 1
+7:922  0:000    16. %p: 'WSMT(', 'WSMT', Rev: 1956361383, Len: 1
+7:922  0:000    17. %p: 'SSDTü', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    18. %p: 'DBGP4', 'DBGP', Rev: 1956361383, Len: 1
+7:922  0:000    19. %p: 'DBG2T', 'DBG2', Rev: 1956361383, Len: 0
+7:922  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1956361383, Len: 1
+7:922  0:000    21. %p: 'SSDTÆ', 'SSDT', Rev: 1956361383, Len: 2
+7:922  0:000    22. %p: 'TPM24', 'TPM2', Rev: 1956361383, Len: 3
+7:922  0:000    23. %p: 'SSDTî', 'SSDT', Rev: 1956361383, Len: 1
+7:922  0:000    24. %p: 'ASF!†', 'ASF!', Rev: 1956361383, Len: 32
+7:922  0:000    Tables in Rsdt: 25
+7:922  0:000    0. %p: 'FACPÑ', 'FACP', Rev: 1956361383, Len: 2
+7:922  0:000        (Dsdt: 7CBD3238, Facs: 7CFA1C00)
+7:922  0:000        %p: 'DSDTéÅ', 'DSDT', Rev: 1956361239, Len: 2
+7:924  0:002        %p: 'FACS@', Ver: 1956361403, Len: 0
+7:924  0:000    1. %p: 'APICÑ', 'APIC', Rev: 1956361383, Len: 3
+7:924  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1956361383, Len: 1
+7:924  0:000    3. %p: 'ECDT¡', 'ECDT', Rev: 1956361383, Len: 1
+7:924  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1956361383, Len: 1
+7:924  0:000    5. %p: 'SSDT"', 'SSDT', Rev: 1956361383, Len: 1
+7:924  0:000    6. %p: 'FIDTú', 'FIDT', Rev: 1956361383, Len: 1
+7:924  0:000    7. %p: 'SLICv', 'SLIC', Rev: 1956361383, Len: 1
+7:924  0:000    8. %p: 'SSDT1', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    9. %p: 'SSDTq'', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    10. %p: 'HPET8', 'HPET', Rev: 1956361383, Len: 1
+7:924  0:000    11. %p: 'SSDT˚]', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    12. %p: 'SSDTÂ', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    13. %p: 'UEFIB', 'UEFI', Rev: 1956361383, Len: 1
+7:924  0:000    14. %p: 'SSDTﬁ', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    15. %p: 'LPITî', 'LPIT', Rev: 1956361383, Len: 1
+7:924  0:000    16. %p: 'WSMT(', 'WSMT', Rev: 1956361383, Len: 1
+7:924  0:000    17. %p: 'SSDTü', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    18. %p: 'DBGP4', 'DBGP', Rev: 1956361383, Len: 1
+7:924  0:000    19. %p: 'DBG2T', 'DBG2', Rev: 1956361383, Len: 0
+7:924  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1956361383, Len: 1
+7:924  0:000    21. %p: 'SSDTÆ', 'SSDT', Rev: 1956361383, Len: 2
+7:924  0:000    22. %p: 'TPM24', 'TPM2', Rev: 1956361383, Len: 3
+7:924  0:000    23. %p: 'SSDTî', 'SSDT', Rev: 1956361383, Len: 1
+7:924  0:000    24. %p: 'ASF!†', 'ASF!', Rev: 1956361383, Len: 32
+7:924  0:000  Found UEFI Acpi 1.0 RSDP at %p
+7:924  0:000  Printing ACPI tables from RSDP %p ...
+7:924  0:000   %p: 'RSD PTR vMSI_NB(0Ω|$', Rev: 1956361559 (Acpi 2.0 or newer), Len: 36
+7:924  0:000    (Xsdt: %p, Rsdt: %p)
+7:924  0:000    %p: 'XSDTÏ', 'XSDT', Rev: 1956361383, Len: 1
+7:924  0:000    %p: 'RSDTà', 'RSDT', Rev: 1956361383, Len: 1
+7:924  0:000    Tables in Xsdt: 25
+7:924  0:000    0. %p: 'FACP', 'FACP', Rev: 1956361383, Len: 6
+7:924  0:000        (Dsdt: 7CBD3238, Facs: 7CFA1C40, XDsdt: 7cbd3238, XFacs: 0)
+7:924  0:000        %p: 'DSDTéÅ', 'DSDT', Rev: 1956361239, Len: 2
+7:927  0:002        %p: 'FACS@', Ver: 1956361403, Len: 2
+7:927  0:000    1. %p: 'APICÑ', 'APIC', Rev: 1956361383, Len: 3
+7:927  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1956361383, Len: 1
+7:927  0:000    3. %p: 'ECDT¡', 'ECDT', Rev: 1956361383, Len: 1
+7:927  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1956361383, Len: 1
+7:927  0:000    5. %p: 'SSDT"', 'SSDT', Rev: 1956361383, Len: 1
+7:927  0:000    6. %p: 'FIDTú', 'FIDT', Rev: 1956361383, Len: 1
+7:927  0:000    7. %p: 'SLICv', 'SLIC', Rev: 1956361383, Len: 1
+7:927  0:000    8. %p: 'SSDT1', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    9. %p: 'SSDTq'', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    10. %p: 'HPET8', 'HPET', Rev: 1956361383, Len: 1
+7:927  0:000    11. %p: 'SSDT˚]', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    12. %p: 'SSDTÂ', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    13. %p: 'UEFIB', 'UEFI', Rev: 1956361383, Len: 1
+7:927  0:000    14. %p: 'SSDTﬁ', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    15. %p: 'LPITî', 'LPIT', Rev: 1956361383, Len: 1
+7:927  0:000    16. %p: 'WSMT(', 'WSMT', Rev: 1956361383, Len: 1
+7:927  0:000    17. %p: 'SSDTü', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    18. %p: 'DBGP4', 'DBGP', Rev: 1956361383, Len: 1
+7:927  0:000    19. %p: 'DBG2T', 'DBG2', Rev: 1956361383, Len: 0
+7:927  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1956361383, Len: 1
+7:927  0:000    21. %p: 'SSDTÆ', 'SSDT', Rev: 1956361383, Len: 2
+7:927  0:000    22. %p: 'TPM24', 'TPM2', Rev: 1956361383, Len: 3
+7:927  0:000    23. %p: 'SSDTî', 'SSDT', Rev: 1956361383, Len: 1
+7:927  0:000    24. %p: 'ASF!†', 'ASF!', Rev: 1956361383, Len: 32
+7:927  0:000    Tables in Rsdt: 25
+7:927  0:000    0. %p: 'FACPÑ', 'FACP', Rev: 1956361383, Len: 2
+7:927  0:000        (Dsdt: 7CBD3238, Facs: 7CFA1C00)
+7:927  0:000        %p: 'DSDTéÅ', 'DSDT', Rev: 1956361239, Len: 2
+7:929  0:002        %p: 'FACS@', Ver: 1956361403, Len: 0
+7:929  0:000    1. %p: 'APICÑ', 'APIC', Rev: 1956361383, Len: 3
+7:929  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 1956361383, Len: 1
+7:929  0:000    3. %p: 'ECDT¡', 'ECDT', Rev: 1956361383, Len: 1
+7:929  0:000    4. %p: 'MCFG<', 'MCFG', Rev: 1956361383, Len: 1
+7:929  0:000    5. %p: 'SSDT"', 'SSDT', Rev: 1956361383, Len: 1
+7:929  0:000    6. %p: 'FIDTú', 'FIDT', Rev: 1956361383, Len: 1
+7:929  0:000    7. %p: 'SLICv', 'SLIC', Rev: 1956361383, Len: 1
+7:929  0:000    8. %p: 'SSDT1', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    9. %p: 'SSDTq'', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    10. %p: 'HPET8', 'HPET', Rev: 1956361383, Len: 1
+7:929  0:000    11. %p: 'SSDT˚]', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    12. %p: 'SSDTÂ', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    13. %p: 'UEFIB', 'UEFI', Rev: 1956361383, Len: 1
+7:929  0:000    14. %p: 'SSDTﬁ', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    15. %p: 'LPITî', 'LPIT', Rev: 1956361383, Len: 1
+7:929  0:000    16. %p: 'WSMT(', 'WSMT', Rev: 1956361383, Len: 1
+7:929  0:000    17. %p: 'SSDTü', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    18. %p: 'DBGP4', 'DBGP', Rev: 1956361383, Len: 1
+7:929  0:000    19. %p: 'DBG2T', 'DBG2', Rev: 1956361383, Len: 0
+7:929  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1956361383, Len: 1
+7:929  0:000    21. %p: 'SSDTÆ', 'SSDT', Rev: 1956361383, Len: 2
+7:929  0:000    22. %p: 'TPM24', 'TPM2', Rev: 1956361383, Len: 3
+7:929  0:000    23. %p: 'SSDTî', 'SSDT', Rev: 1956361383, Len: 1
+7:929  0:000    24. %p: 'ASF!†', 'ASF!', Rev: 1956361383, Len: 32

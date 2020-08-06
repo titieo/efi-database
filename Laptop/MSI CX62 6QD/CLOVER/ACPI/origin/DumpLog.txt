@@ -1,0 +1,168 @@
+6:483  0:394  Found BIOS RSDP at F0010
+6:483  0:000  Printing ACPI tables from RSDP F0010 ...
+6:483  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:483  0:000    (Xsdt: 778C00A8, Rsdt: 778C0028)
+6:483  0:000    778C00A8: 'XSDT', 'MEGABOOK', Rev: 1, Len: 204
+6:483  0:000    778C0028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 120
+6:483  0:000    Tables in Xsdt: 21
+6:483  0:000    0. 778E2BA8: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+6:483  0:000        (Dsdt: 778C0208, Facs: 77B7DF80, XDsdt: 778C0208, XFacs: 0)
+6:483  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:486  0:002        77B7DF80: 'FACS', Ver: 2, Len: 64
+6:486  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:486  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:486  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:486  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:486  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:486  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:486  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:486  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:486  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:486  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:486  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:486  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:486  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:486  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:486  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:486  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:486  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:486  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:486  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:486  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165
+6:486  0:000    Tables in Rsdt: 21
+6:486  0:000    0. 778C0180: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+6:486  0:000        (Dsdt: 778C0208, Facs: 77B7DF40)
+6:486  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:488  0:002        77B7DF40: 'FACS', Ver: 0, Len: 64
+6:488  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:488  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:488  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:488  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:488  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:488  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:488  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:488  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:488  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:488  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:488  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:488  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:488  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:488  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:488  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:488  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:488  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:488  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:488  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:488  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165
+6:488  0:000  Found UEFI Acpi 2.0 RSDP at 778C0000
+6:488  0:000  Saving ACPI tables from RSDP 778C0000 to EFI\CLOVER\ACPI\origin ...
+6:488  0:000   778C0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:488  0:000    (Xsdt: 778C00A8, Rsdt: 778C0028)
+6:488  0:000    778C00A8: 'XSDT', 'MEGABOOK', Rev: 1, Len: 204
+6:488  0:000    778C0028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 120
+6:488  0:000    Tables in Xsdt: 21
+6:488  0:000    0. 778E2BA8: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+6:488  0:000        (Dsdt: 778C0208, Facs: 77B7DF80, XDsdt: 778C0208, XFacs: 0)
+6:488  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:490  0:002        77B7DF80: 'FACS', Ver: 2, Len: 64
+6:490  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:490  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:490  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:490  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:490  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:490  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:490  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:490  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:490  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:490  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:490  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:490  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:490  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:490  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:490  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:490  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:490  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:490  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:490  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:490  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165
+6:490  0:000    Tables in Rsdt: 21
+6:490  0:000    0. 778C0180: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+6:490  0:000        (Dsdt: 778C0208, Facs: 77B7DF40)
+6:490  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:492  0:002        77B7DF40: 'FACS', Ver: 0, Len: 64
+6:492  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:492  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:492  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:492  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:492  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:492  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:492  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:492  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:492  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:492  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:492  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:492  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:492  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:492  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:492  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:492  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:492  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:492  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:492  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:492  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165
+6:492  0:000  Found UEFI Acpi 1.0 RSDP at 778C0000
+6:492  0:000  Printing ACPI tables from RSDP 778C0000 ...
+6:492  0:000   778C0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:492  0:000    (Xsdt: 778C00A8, Rsdt: 778C0028)
+6:492  0:000    778C00A8: 'XSDT', 'MEGABOOK', Rev: 1, Len: 204
+6:492  0:000    778C0028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 120
+6:492  0:000    Tables in Xsdt: 21
+6:492  0:000    0. 778E2BA8: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+6:492  0:000        (Dsdt: 778C0208, Facs: 77B7DF80, XDsdt: 778C0208, XFacs: 0)
+6:492  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:494  0:002        77B7DF80: 'FACS', Ver: 2, Len: 64
+6:494  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:494  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:494  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:494  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:494  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:494  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:494  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:494  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:494  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:494  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:495  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:495  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:495  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:495  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:495  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:495  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:495  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:495  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:495  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:495  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165
+6:495  0:000    Tables in Rsdt: 21
+6:495  0:000    0. 778C0180: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+6:495  0:000        (Dsdt: 778C0208, Facs: 77B7DF40)
+6:495  0:000        778C0208: 'DSDT', 'MEGABOOK', Rev: 2, Len: 141723
+6:497  0:002        77B7DF40: 'FACS', Ver: 0, Len: 64
+6:497  0:000    1. 778E2CB8: 'APIC', 'MEGABOOK', Rev: 3, Len: 132
+6:497  0:000    2. 778E2D40: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+6:497  0:000    3. 778E2D88: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+6:497  0:000    4. 778E2E28: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+6:497  0:000    5. 778E2E68: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+6:497  0:000    6. 778E2EA0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:497  0:000    7. 778E31B8: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:497  0:000    8. 778E3250: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+6:497  0:000    9. 778E3498: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+6:497  0:000    10. 778E6048: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+6:497  0:000    11. 778E6C90: 'DBGP', '', Rev: 1, Len: 52
+6:497  0:000    12. 778E6CC8: 'DBG2', '', Rev: 0, Len: 84
+6:497  0:000    13. 778E6D20: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+6:497  0:000    14. 778E6E98: 'SSDT', 'SaSsdt', Rev: 2, Len: 21813
+6:497  0:000    15. 778EC3D0: 'UEFI', '', Rev: 1, Len: 66
+6:497  0:000    16. 778EC418: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+6:497  0:000    17. 778ED270: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+6:497  0:000    18. 778ED2A8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+6:497  0:000    19. 778ED348: 'SSDT', 'OptTabl', Rev: 1, Len: 6587
+6:497  0:000    20. 778EED08: 'ASF!', ' HCG', Rev: 32, Len: 165

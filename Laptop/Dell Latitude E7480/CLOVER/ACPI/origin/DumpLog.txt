@@ -1,0 +1,198 @@
+10:314  3:416  Found BIOS RSDP at EE1A0
+10:314  0:000  Printing ACPI tables from RSDP EE1A0 ...
+10:314  0:000   EE1A0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:314  0:000    (Xsdt: CA8710B8, Rsdt: CA871028)
+10:314  0:000    CA8710B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+10:314  0:000    CA871028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+10:314  0:000    Tables in Xsdt: 26
+10:314  0:000    0. CA897438: 'FACP', 'CBX3', Rev: 5, Len: 268
+10:315  0:000        (Dsdt: CA871240, Facs: CAF46E80, XDsdt: CA871240, XFacs: 0)
+10:315  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:317  0:002        CAF46E80: 'FACS', Ver: 2, Len: 64
+10:317  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:317  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:317  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:317  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:317  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:317  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:317  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:317  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:317  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:317  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:317  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:317  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:317  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:317  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:317  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:317  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:317  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:317  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:317  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:317  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:317  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:317  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:317  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:317  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:317  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56
+10:317  0:000    Tables in Rsdt: 26
+10:317  0:000    0. CA8711B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+10:317  0:000        (Dsdt: CA871240, Facs: CAF46E40)
+10:317  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:319  0:002        CAF46E40: 'FACS', Ver: 0, Len: 64
+10:319  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:319  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:319  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:319  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:319  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:319  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:319  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:319  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:319  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:319  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:319  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:319  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:319  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:319  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:319  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:319  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:319  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:319  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:319  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:319  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:319  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:319  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:319  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:319  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:319  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56
+10:319  0:000  Found UEFI Acpi 2.0 RSDP at CA871000
+10:319  0:000  Saving ACPI tables from RSDP CA871000 to EFI\CLOVER\ACPI\origin ...
+10:319  0:000   CA871000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:319  0:000    (Xsdt: CA8710B8, Rsdt: CA871028)
+10:319  0:000    CA8710B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+10:319  0:000    CA871028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+10:319  0:000    Tables in Xsdt: 26
+10:319  0:000    0. CA897438: 'FACP', 'CBX3', Rev: 5, Len: 268
+10:319  0:000        (Dsdt: CA871240, Facs: CAF46E80, XDsdt: CA871240, XFacs: 0)
+10:319  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:321  0:002        CAF46E80: 'FACS', Ver: 2, Len: 64
+10:321  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:321  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:321  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:321  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:321  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:321  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:321  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:321  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:321  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:321  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:321  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:321  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:321  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:321  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:321  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:321  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:321  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:321  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:321  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:321  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:321  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:321  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:321  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:321  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:321  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56
+10:321  0:000    Tables in Rsdt: 26
+10:321  0:000    0. CA8711B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+10:321  0:000        (Dsdt: CA871240, Facs: CAF46E40)
+10:321  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:323  0:002        CAF46E40: 'FACS', Ver: 0, Len: 64
+10:323  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:323  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:323  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:323  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:323  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:323  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:323  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:323  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:323  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:323  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:323  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:323  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:323  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:323  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:323  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:323  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:323  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:323  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:323  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:323  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:323  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:323  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:323  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:323  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:323  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56
+10:323  0:000  Found UEFI Acpi 1.0 RSDP at CA871000
+10:323  0:000  Printing ACPI tables from RSDP CA871000 ...
+10:323  0:000   CA871000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:323  0:000    (Xsdt: CA8710B8, Rsdt: CA871028)
+10:323  0:000    CA8710B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+10:323  0:000    CA871028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+10:323  0:000    Tables in Xsdt: 26
+10:323  0:000    0. CA897438: 'FACP', 'CBX3', Rev: 5, Len: 268
+10:323  0:000        (Dsdt: CA871240, Facs: CAF46E80, XDsdt: CA871240, XFacs: 0)
+10:323  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:326  0:002        CAF46E80: 'FACS', Ver: 2, Len: 64
+10:326  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:326  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:326  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:326  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:326  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:326  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:326  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:326  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:326  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:326  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:326  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:326  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:326  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:326  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:326  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:326  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:326  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:326  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:326  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:326  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:326  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:326  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:326  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:326  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:326  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56
+10:326  0:000    Tables in Rsdt: 26
+10:326  0:000    0. CA8711B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+10:326  0:000        (Dsdt: CA871240, Facs: CAF46E40)
+10:326  0:000        CA871240: 'DSDT', 'CBX3', Rev: 2, Len: 156152
+10:328  0:002        CAF46E40: 'FACS', Ver: 0, Len: 64
+10:328  0:000    1. CA897548: 'APIC', 'CBX3', Rev: 3, Len: 132
+10:328  0:000    2. CA8975D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:328  0:000    3. CA897618: 'FIDT', 'CBX3', Rev: 1, Len: 172
+10:328  0:000    4. CA8976C8: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:328  0:000    5. CA897708: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:328  0:000    6. CA897740: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+10:328  0:000    7. CA897AA0: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+10:328  0:000    8. CA898DA0: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+10:328  0:000    9. CA898DD8: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 3774
+10:328  0:000    10. CA899C98: 'UEFI', '', Rev: 1, Len: 66
+10:328  0:000    11. CA899CE0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+10:328  0:000    12. CA89ABC0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+10:328  0:000    13. CA89AC58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:328  0:000    14. CA89ADA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+10:328  0:000    15. CA89B040: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+10:328  0:000    16. CA89E048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:328  0:000    17. CA89E560: 'DBGP', '', Rev: 1, Len: 52
+10:328  0:000    18. CA89E598: 'DBG2', '', Rev: 0, Len: 84
+10:328  0:000    19. CA89E5F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 20790
+10:328  0:000    20. CA8A3728: 'MSDM', 'CBX3', Rev: 3, Len: 85
+10:328  0:000    21. CA8A3780: 'SLIC', 'CBX3', Rev: 3, Len: 374
+10:328  0:000    22. CA8A38F8: 'TCPA', 'NAPAASF', Rev: 2, Len: 50
+10:328  0:000    23. CA8A3930: 'DMAR', 'SKL', Rev: 1, Len: 276
+10:328  0:000    24. CA8A3A48: 'ASF!', ' HCG', Rev: 32, Len: 160
+10:328  0:000    25. CA8A3AE8: 'BGRT', '', Rev: 0, Len: 56

@@ -1,0 +1,192 @@
+10:969  0:075  Found BIOS RSDP at EB9D0
+10:969  0:000  Printing ACPI tables from RSDP EB9D0 ...
+10:969  0:000   EB9D0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:969  0:000    (Xsdt: 79BA00B8, Rsdt: 79BA0028)
+10:969  0:000    79BA00B8: 'XSDT', 'CBX3', Rev: 1, Len: 236
+10:969  0:000    79BA0028: 'RSDT', 'CBX3', Rev: 1, Len: 136
+10:969  0:000    Tables in Xsdt: 25
+10:969  0:000    0. 79BE21F0: 'FACP', 'CBX3', Rev: 6, Len: 276
+10:969  0:000        (Dsdt: 79BA0230, Facs: 7A577C00, XDsdt: 79BA0230, XFacs: 0)
+10:969  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+10:975  0:006        7A577C00: 'FACS', Ver: 2, Len: 64
+10:975  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+10:975  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:975  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+10:975  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:975  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+10:975  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:975  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+10:975  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+10:975  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+10:975  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:975  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+10:975  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+10:975  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+10:975  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:975  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+10:975  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+10:975  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+10:975  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+10:975  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+10:975  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+10:975  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:975  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:975  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+10:975  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56
+10:975  0:000    Tables in Rsdt: 25
+10:975  0:000    0. 79BA01A8: 'FACP', 'CBX3', Rev: 2, Len: 132
+10:975  0:000        (Dsdt: 79BA0230, Facs: 7A577BC0)
+10:975  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+10:982  0:006        7A577BC0: 'FACS', Ver: 0, Len: 64
+10:982  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+10:982  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:982  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+10:982  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:982  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+10:982  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:982  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+10:982  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+10:982  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+10:982  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:982  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+10:982  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+10:982  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+10:982  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:982  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+10:982  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+10:982  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+10:982  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+10:982  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+10:982  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+10:982  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:982  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:982  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+10:982  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56
+10:982  0:000  Found UEFI Acpi 2.0 RSDP at 79BA0000
+10:982  0:000  Saving ACPI tables from RSDP 79BA0000 to EFI\CLOVER\ACPI\origin ...
+10:982  0:000   79BA0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:982  0:000    (Xsdt: 79BA00B8, Rsdt: 79BA0028)
+10:982  0:000    79BA00B8: 'XSDT', 'CBX3', Rev: 1, Len: 236
+10:982  0:000    79BA0028: 'RSDT', 'CBX3', Rev: 1, Len: 136
+10:982  0:000    Tables in Xsdt: 25
+10:982  0:000    0. 79BE21F0: 'FACP', 'CBX3', Rev: 6, Len: 276
+10:982  0:000        (Dsdt: 79BA0230, Facs: 7A577C00, XDsdt: 79BA0230, XFacs: 0)
+10:982  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+10:988  0:006        7A577C00: 'FACS', Ver: 2, Len: 64
+10:988  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+10:988  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:988  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+10:988  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:988  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+10:988  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:988  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+10:988  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+10:988  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+10:988  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:988  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+10:988  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+10:988  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+10:988  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:988  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+10:988  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+10:988  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+10:988  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+10:988  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+10:988  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+10:988  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:988  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:988  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+10:988  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56
+10:988  0:000    Tables in Rsdt: 25
+10:988  0:000    0. 79BA01A8: 'FACP', 'CBX3', Rev: 2, Len: 132
+10:988  0:000        (Dsdt: 79BA0230, Facs: 7A577BC0)
+10:988  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+10:995  0:006        7A577BC0: 'FACS', Ver: 0, Len: 64
+10:995  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+10:995  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+10:995  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+10:995  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+10:995  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+10:995  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:995  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+10:995  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+10:995  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+10:995  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+10:995  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+10:995  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+10:995  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+10:995  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:995  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+10:995  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+10:995  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+10:995  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+10:995  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+10:995  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+10:995  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:995  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:995  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+10:995  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56
+10:995  0:000  Found UEFI Acpi 1.0 RSDP at 79BA0000
+10:995  0:000  Printing ACPI tables from RSDP 79BA0000 ...
+10:995  0:000   79BA0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:995  0:000    (Xsdt: 79BA00B8, Rsdt: 79BA0028)
+10:995  0:000    79BA00B8: 'XSDT', 'CBX3', Rev: 1, Len: 236
+10:995  0:000    79BA0028: 'RSDT', 'CBX3', Rev: 1, Len: 136
+10:995  0:000    Tables in Xsdt: 25
+10:995  0:000    0. 79BE21F0: 'FACP', 'CBX3', Rev: 6, Len: 276
+10:995  0:000        (Dsdt: 79BA0230, Facs: 7A577C00, XDsdt: 79BA0230, XFacs: 0)
+10:995  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+11:001  0:006        7A577C00: 'FACS', Ver: 2, Len: 64
+11:001  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+11:001  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:001  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+11:001  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:001  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+11:001  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+11:001  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:001  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+11:001  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+11:001  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:001  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+11:001  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+11:001  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+11:001  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+11:001  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+11:001  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+11:001  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+11:001  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+11:001  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+11:001  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+11:001  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+11:001  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+11:001  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+11:001  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56
+11:001  0:000    Tables in Rsdt: 25
+11:001  0:000    0. 79BA01A8: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:001  0:000        (Dsdt: 79BA0230, Facs: 7A577BC0)
+11:001  0:000        79BA0230: 'DSDT', 'CBX3', Rev: 2, Len: 270265
+11:008  0:006        7A577BC0: 'FACS', Ver: 0, Len: 64
+11:008  0:000    1. 79BE2308: 'APIC', 'CBX3', Rev: 4, Len: 188
+11:008  0:000    2. 79BE23C8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:008  0:000    3. 79BE2410: 'FIDT', 'CBX3', Rev: 1, Len: 156
+11:008  0:000    4. 79BE24B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:008  0:000    5. 79BE24F0: 'SSDT', 'SataTabl', Rev: 1, Len: 1889
+11:008  0:000    6. 79BE2C58: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+11:008  0:000    7. 79BE4430: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:008  0:000    8. 79BE4458: 'SSDT', 'SaSsdt', Rev: 2, Len: 4918
+11:008  0:000    9. 79BE5790: 'SSDT', 'PegSsdt', Rev: 2, Len: 9710
+11:008  0:000    10. 79BE7D80: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:008  0:000    11. 79BE7DB8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10759
+11:008  0:000    12. 79BEA7C0: 'UEFI', 'CBX3', Rev: 1, Len: 72
+11:008  0:000    13. 79BEA808: 'LPIT', 'CBX3', Rev: 1, Len: 92
+11:008  0:000    14. 79BEA868: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+11:008  0:000    15. 79BED048: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+11:008  0:000    16. 79BEE048: 'DBGP', 'CBX3', Rev: 1, Len: 52
+11:008  0:000    17. 79BEE080: 'DBG2', 'CBX3', Rev: 0, Len: 84
+11:008  0:000    18. 79BEE0D8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2024
+11:008  0:000    19. 79BEE8C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 26741
+11:008  0:000    20. 79BF5138: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+11:008  0:000    21. 79BF5280: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+11:008  0:000    22. 79BF5330: 'DMAR', 'EDK2', Rev: 1, Len: 168
+11:008  0:000    23. 79BF53D8: 'SSDT', 'OptTabl', Rev: 1, Len: 8158
+11:008  0:000    24. 79BF73B8: 'BGRT', '', Rev: 0, Len: 56

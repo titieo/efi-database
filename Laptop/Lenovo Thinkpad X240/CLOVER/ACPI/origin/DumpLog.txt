@@ -1,0 +1,161 @@
+9:872  0:380  Found BIOS RSDP at F0120
+9:872  0:000  Printing ACPI tables from RSDP F0120 ...
+9:872  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:872  0:000    (Xsdt: DCEFE170, Rsdt: DCEFE0D4)
+9:872  0:000    DCEFE170: 'XSDT', 'TP-GI', Rev: 1, Len: 228
+9:872  0:000    DCEFE0D4: 'RSDT', 'TP-GI', Rev: 1, Len: 132
+9:872  0:000    Tables in Xsdt: 24
+9:872  0:000    0. DCEF8000: 'FACP', 'TP-GI', Rev: 5, Len: 268
+9:872  0:000        (Dsdt: DCEE2000, Facs: DCE4A000, XDsdt: DCEE2000, XFacs: 0)
+9:872  0:000        DCEE2000: 'DSDT', 'TP-GI', Rev: 1, Len: 68443
+9:873  0:001        DCE4A000: 'FACS', Ver: 2, Len: 64
+9:873  0:000    1. DCEFD000: 'SLIC', 'TP-GI', Rev: 1, Len: 374
+9:873  0:000    2. DCEFB000: 'DBGP', 'TP-GI', Rev: 1, Len: 52
+9:873  0:000    3. DCEFA000: 'ECDT', 'TP-GI', Rev: 1, Len: 82
+9:873  0:000    4. DCEF7000: 'HPET', 'TP-GI', Rev: 1, Len: 56
+9:873  0:000    5. DCEF6000: 'APIC', 'TP-GI', Rev: 1, Len: 152
+9:873  0:000    6. DCEF5000: 'MCFG', 'TP-GI', Rev: 1, Len: 60
+9:873  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+9:873  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+9:873  0:000    9. DCEE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2507
+9:873  0:000    10. DCEE0000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 338
+9:873  0:000    11. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2037
+9:873  0:000    12. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:873  0:000    13. DCEDC000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4700
+9:873  0:000    14. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+9:873  0:000    15. DCEDA000: 'PCCT', 'TP-GI', Rev: 5, Len: 110
+9:873  0:000    16. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+9:873  0:000    17. DCED8000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+9:873  0:000    18. DCED7000: 'UEFI', 'TP-GI', Rev: 1, Len: 66
+9:873  0:000    19. DCDB2000: 'MSDM', 'TP-GI', Rev: 3, Len: 85
+9:873  0:000    20. DCEFC000: 'ASF!', 'TP-GI', Rev: 32, Len: 165
+9:873  0:000    21. DCED6000: 'BATB', 'TP-GI', Rev: 1, Len: 70
+9:873  0:000    22. DCED5000: 'FPDT', 'TP-GI', Rev: 1, Len: 100
+9:873  0:000    23. DCED4000: 'UEFI', 'TP-GI', Rev: 1, Len: 758
+9:873  0:000    Tables in Rsdt: 24
+9:873  0:000    0. DCEF9000: 'FACP', 'TP-GI', Rev: 1, Len: 116
+9:873  0:000        (Dsdt: DCEE2000, Facs: DCE4A000)
+9:873  0:000        DCEE2000: 'DSDT', 'TP-GI', Rev: 1, Len: 68443
+9:874  0:001        DCE4A000: 'FACS', Ver: 2, Len: 64
+9:874  0:000    1. DCEFD000: 'SLIC', 'TP-GI', Rev: 1, Len: 374
+9:874  0:000    2. DCEFB000: 'DBGP', 'TP-GI', Rev: 1, Len: 52
+9:874  0:000    3. DCEFA000: 'ECDT', 'TP-GI', Rev: 1, Len: 82
+9:874  0:000    4. DCEF7000: 'HPET', 'TP-GI', Rev: 1, Len: 56
+9:874  0:000    5. DCEF6000: 'APIC', 'TP-GI', Rev: 1, Len: 152
+9:874  0:000    6. DCEF5000: 'MCFG', 'TP-GI', Rev: 1, Len: 60
+9:874  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+9:874  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+9:875  0:000    9. DCEE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2507
+9:875  0:000    10. DCEE0000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 338
+9:875  0:000    11. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2037
+9:875  0:000    12. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:875  0:000    13. DCEDC000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4700
+9:875  0:000    14. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+9:875  0:000    15. DCEDA000: 'PCCT', 'TP-GI', Rev: 5, Len: 110
+9:875  0:000    16. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+9:875  0:000    17. DCED8000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+9:875  0:000    18. DCED7000: 'UEFI', 'TP-GI', Rev: 1, Len: 66
+9:875  0:000    19. DCDB2000: 'MSDM', 'TP-GI', Rev: 3, Len: 85
+9:875  0:000    20. DCEFC000: 'ASF!', 'TP-GI', Rev: 32, Len: 165
+9:875  0:000    21. DCED6000: 'BATB', 'TP-GI', Rev: 1, Len: 70
+9:875  0:000    22. DCED5000: 'FPDT', 'TP-GI', Rev: 1, Len: 100
+9:875  0:000    23. DCED4000: 'UEFI', 'TP-GI', Rev: 1, Len: 758
+9:875  0:000  Found UEFI Acpi 2.0 RSDP at DCEFE014
+9:875  0:000  Saving ACPI tables from RSDP DCEFE014 to EFI\CLOVER\ACPI\origin ...
+9:875  0:000   DCEFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:878  0:003    (Xsdt: DCEFE170, Rsdt: DCEFE0D4)
+9:878  0:000    DCEFE170: 'XSDT', 'TP-GI', Rev: 1, Len: 228 -> XSDT.aml
+9:881  0:003    DCEFE0D4: 'RSDT', 'TP-GI', Rev: 1, Len: 132 -> RSDT.aml
+9:884  0:003    Tables in Xsdt: 24
+9:884  0:000    0. DCEF8000: 'FACP', 'TP-GI', Rev: 5, Len: 268 -> FACP.aml
+9:887  0:003        (Dsdt: DCEE2000, Facs: DCE4A000, XDsdt: DCEE2000, XFacs: 0)
+9:887  0:000        DCEE2000: 'DSDT', 'TP-GI', Rev: 1, Len: 68443 -> DSDT.aml
+9:892  0:004        DCE4A000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:895  0:003    1. DCEFD000: 'SLIC', 'TP-GI', Rev: 1, Len: 374 -> SLIC.aml
+9:898  0:003    2. DCEFB000: 'DBGP', 'TP-GI', Rev: 1, Len: 52 -> DBGP.aml
+9:902  0:003    3. DCEFA000: 'ECDT', 'TP-GI', Rev: 1, Len: 82 -> ECDT.aml
+9:906  0:004    4. DCEF7000: 'HPET', 'TP-GI', Rev: 1, Len: 56 -> HPET.aml
+9:909  0:003    5. DCEF6000: 'APIC', 'TP-GI', Rev: 1, Len: 152 -> APIC.aml
+9:912  0:003    6. DCEF5000: 'MCFG', 'TP-GI', Rev: 1, Len: 60 -> MCFG.aml
+9:916  0:003    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-0-TP-SSDT1.aml
+9:919  0:003    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158 -> SSDT-1-TP-SSDT2.aml
+9:922  0:003    9. DCEE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2507 -> SSDT-2-SataAhci.aml
+9:925  0:003    10. DCEE0000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 338 -> SSDT-3-Rmv_Batt.aml
+9:929  0:003    11. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2037 -> SSDT-4-Cpu0Ist.aml
+9:932  0:003    12. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-5-CpuPm.aml (Found hidden SSDT 4 pcs)
+9:935  0:003        * D4BE7018: 'hndl', ' q¾Ô', Rev: 160, Len: 0  68 6E 64 6C 00 00 00 00 A0 3D BE D4 00 00 00 00 
+9:935  0:000        * DCD2E618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x5_0-ApIst.aml
+9:938  0:003        * DCCD7918: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1078  53 53 44 54 36 04 00 00 01 68 50 6D 52 65 66 00 Internal length = 1078 -> SSDT-x5_1-Cpu0Cst.aml
+9:942  0:003        * DCD2FC18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x5_2-ApCst.aml
+9:945  0:003  
+9:945  0:000    13. DCEDC000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4700 -> SSDT-6-SaSsdt.aml
+9:948  0:003    14. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889 -> SSDT-7-CppcTabl.aml
+9:952  0:003    15. DCEDA000: 'PCCT', 'TP-GI', Rev: 5, Len: 110 -> PCCT.aml
+9:955  0:003    16. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756 -> SSDT-8-Cpc_Tabl.aml
+9:958  0:003    17. DCED8000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+9:961  0:003    18. DCED7000: 'UEFI', 'TP-GI', Rev: 1, Len: 66 -> UEFI.aml
+9:965  0:003    19. DCDB2000: 'MSDM', 'TP-GI', Rev: 3, Len: 85 -> MSDM.aml
+9:969  0:004    20. DCEFC000: 'ASF!', 'TP-GI', Rev: 32, Len: 165 -> ASF!.aml
+9:972  0:003    21. DCED6000: 'BATB', 'TP-GI', Rev: 1, Len: 70 -> BATB.aml
+9:975  0:003    22. DCED5000: 'FPDT', 'TP-GI', Rev: 1, Len: 100 -> FPDT.aml
+9:978  0:003    23. DCED4000: 'UEFI', 'TP-GI', Rev: 1, Len: 758 -> UEFI.aml
+9:982  0:003    Tables in Rsdt: 24
+9:982  0:000    0. DCEF9000: 'FACP', 'TP-GI', Rev: 1, Len: 116 -> RSDT-FACP.aml
+9:985  0:003        (Dsdt: DCEE2000, Facs: DCE4A000)
+9:985  0:000        DCEE2000: 'DSDT', 'TP-GI', Rev: 1, Len: 68443
+9:986  0:001        DCE4A000: 'FACS', Ver: 2, Len: 64
+9:986  0:000    1. DCEFD000: 'SLIC', 'TP-GI', Rev: 1, Len: 374
+9:986  0:000    2. DCEFB000: 'DBGP', 'TP-GI', Rev: 1, Len: 52
+9:986  0:000    3. DCEFA000: 'ECDT', 'TP-GI', Rev: 1, Len: 82
+9:986  0:000    4. DCEF7000: 'HPET', 'TP-GI', Rev: 1, Len: 56
+9:986  0:000    5. DCEF6000: 'APIC', 'TP-GI', Rev: 1, Len: 152
+9:986  0:000    6. DCEF5000: 'MCFG', 'TP-GI', Rev: 1, Len: 60
+9:986  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+9:986  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+9:986  0:000    9. DCEE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2507
+9:986  0:000    10. DCEE0000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 338
+9:986  0:000    11. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2037
+9:986  0:000    12. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:986  0:000    13. DCEDC000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4700
+9:986  0:000    14. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+9:986  0:000    15. DCEDA000: 'PCCT', 'TP-GI', Rev: 5, Len: 110
+9:986  0:000    16. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+9:986  0:000    17. DCED8000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+9:986  0:000    18. DCED7000: 'UEFI', 'TP-GI', Rev: 1, Len: 66
+9:986  0:000    19. DCDB2000: 'MSDM', 'TP-GI', Rev: 3, Len: 85
+9:986  0:000    20. DCEFC000: 'ASF!', 'TP-GI', Rev: 32, Len: 165
+9:986  0:000    21. DCED6000: 'BATB', 'TP-GI', Rev: 1, Len: 70
+9:986  0:000    22. DCED5000: 'FPDT', 'TP-GI', Rev: 1, Len: 100
+9:986  0:000    23. DCED4000: 'UEFI', 'TP-GI', Rev: 1, Len: 758
+9:986  0:000  Found UEFI Acpi 1.0 RSDP at DCEFE000
+9:986  0:000  Printing ACPI tables from RSDP DCEFE000 ...
+9:986  0:000   DCEFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+9:986  0:000    (Rsdt: DCEFE038)
+9:986  0:000    DCEFE038: 'RSDT', 'TP-GI', Rev: 1, Len: 128
+9:986  0:000    Tables in Rsdt: 23
+9:986  0:000    0. DCEF9000: 'FACP', 'TP-GI', Rev: 1, Len: 116
+9:986  0:000        (Dsdt: DCEE2000, Facs: DCE4A000)
+9:986  0:000        DCEE2000: 'DSDT', 'TP-GI', Rev: 1, Len: 68443
+9:987  0:001        DCE4A000: 'FACS', Ver: 2, Len: 64
+9:987  0:000    1. DCEFB000: 'DBGP', 'TP-GI', Rev: 1, Len: 52
+9:987  0:000    2. DCEFA000: 'ECDT', 'TP-GI', Rev: 1, Len: 82
+9:987  0:000    3. DCEF7000: 'HPET', 'TP-GI', Rev: 1, Len: 56
+9:987  0:000    4. DCEF6000: 'APIC', 'TP-GI', Rev: 1, Len: 152
+9:987  0:000    5. DCEF5000: 'MCFG', 'TP-GI', Rev: 1, Len: 60
+9:987  0:000    6. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+9:987  0:000    7. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+9:987  0:000    8. DCEE1000: 'SSDT', 'SataAhci', Rev: 1, Len: 2507
+9:987  0:000    9. DCEE0000: 'SSDT', 'Rmv_Batt', Rev: 1, Len: 338
+9:987  0:000    10. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2037
+9:987  0:000    11. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:987  0:000    12. DCEDC000: 'SSDT', 'SaSsdt', Rev: 1, Len: 4700
+9:987  0:000    13. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+9:987  0:000    14. DCEDA000: 'PCCT', 'TP-GI', Rev: 5, Len: 110
+9:987  0:000    15. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+9:987  0:000    16. DCED8000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+9:987  0:000    17. DCED7000: 'UEFI', 'TP-GI', Rev: 1, Len: 66
+9:987  0:000    18. DCDB2000: 'MSDM', 'TP-GI', Rev: 3, Len: 85
+9:987  0:000    19. DCEFC000: 'ASF!', 'TP-GI', Rev: 32, Len: 165
+9:987  0:000    20. DCED6000: 'BATB', 'TP-GI', Rev: 1, Len: 70
+9:987  0:000    21. DCED5000: 'FPDT', 'TP-GI', Rev: 1, Len: 100
+9:987  0:000    22. DCED4000: 'UEFI', 'TP-GI', Rev: 1, Len: 758

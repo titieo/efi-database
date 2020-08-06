@@ -1,0 +1,194 @@
+17:828  12:690  Found BIOS RSDP at EEBA0
+17:828  0:000  Printing ACPI tables from RSDP EEBA0 ...
+17:828  0:000   EEBA0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:828  0:000    (Xsdt: A85F00B0, Rsdt: A85F0028)
+17:828  0:000    A85F00B0: 'XSDT', 'CBX3', Rev: 1, Len: 228
+17:828  0:000    A85F0028: 'RSDT', 'CBX3', Rev: 1, Len: 132
+17:828  0:000    Tables in Xsdt: 24
+17:828  0:000    0. A86144C0: 'FACP', 'CBX3', Rev: 5, Len: 268
+17:828  0:000        (Dsdt: A85F0228, Facs: A8F3E180, XDsdt: A85F0228, XFacs: 0)
+17:828  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120
+17:830  0:002        A8F3E180: 'FACS', Ver: 2, Len: 64
+17:830  0:000    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132
+17:830  0:000    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68
+17:830  0:000    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172
+17:830  0:000    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+17:830  0:000    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56
+17:830  0:000    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878
+17:830  0:000    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40
+17:830  0:000    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842
+17:830  0:000    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:830  0:000    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691
+17:830  0:000    11. A8616910: 'UEFI', '', Rev: 1, Len: 66
+17:830  0:000    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+17:830  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:830  0:000    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+17:830  0:000    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:830  0:000    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+17:830  0:000    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52
+17:830  0:000    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97
+17:830  0:000    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103
+17:830  0:000    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374
+17:830  0:000    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240
+17:830  0:000    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52
+17:830  0:000    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56
+17:830  0:000    Tables in Rsdt: 24
+17:830  0:000    0. A85F01A0: 'FACP', 'CBX3', Rev: 2, Len: 132
+17:830  0:000        (Dsdt: A85F0228, Facs: A8F3E140)
+17:830  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120
+17:832  0:002        A8F3E140: 'FACS', Ver: 0, Len: 64
+17:832  0:000    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132
+17:832  0:000    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68
+17:832  0:000    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172
+17:832  0:000    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+17:832  0:000    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56
+17:832  0:000    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878
+17:832  0:000    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40
+17:832  0:000    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842
+17:832  0:000    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+17:832  0:000    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691
+17:832  0:000    11. A8616910: 'UEFI', '', Rev: 1, Len: 66
+17:832  0:000    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+17:832  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+17:832  0:000    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+17:832  0:000    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+17:832  0:000    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+17:832  0:000    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52
+17:832  0:000    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97
+17:832  0:000    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103
+17:832  0:000    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374
+17:832  0:000    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240
+17:832  0:000    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52
+17:832  0:000    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56
+17:832  0:000  Found UEFI Acpi 2.0 RSDP at A85F0000
+17:832  0:000  Saving ACPI tables from RSDP A85F0000 to EFI\CLOVER\ACPI\origin ...
+17:832  0:000   A85F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+17:874  0:042    (Xsdt: A85F00B0, Rsdt: A85F0028)
+17:874  0:000    A85F00B0: 'XSDT', 'CBX3', Rev: 1, Len: 228 -> XSDT.aml
+17:894  0:019    A85F0028: 'RSDT', 'CBX3', Rev: 1, Len: 132 -> RSDT.aml
+17:913  0:019    Tables in Xsdt: 24
+17:913  0:000    0. A86144C0: 'FACP', 'CBX3', Rev: 5, Len: 268 -> FACP.aml
+17:947  0:034        (Dsdt: A85F0228, Facs: A8F3E180, XDsdt: A85F0228, XFacs: 0)
+17:947  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120 -> DSDT.aml
+17:982  0:034        A8F3E180: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+18:005  0:023    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132 -> APIC.aml
+18:027  0:021    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+18:047  0:019    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172 -> FIDT.aml
+18:066  0:019    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+18:087  0:020    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+18:106  0:019    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878 -> SSDT-0-SataTabl.aml
+18:127  0:020    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+18:154  0:026    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842 -> SSDT-1-SaSsdt.aml
+18:172  0:018    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
+18:202  0:029    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691 -> SSDT-2-xh_OEMBD.aml
+18:220  0:017    11. A8616910: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+18:238  0:017    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+18:257  0:019        * A83B5098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 FA 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x3_0-Cpu0Ist.aml
+18:275  0:018        * A8338018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x3_1-ApIst.aml
+18:300  0:025        * A8337018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x3_2-Cpu0Cst.aml
+18:320  0:019        * A8337D18: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x3_3-ApCst.aml
+18:338  0:018        * A626CE98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 AE 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x3_4-Cpu0Hwp.aml
+18:357  0:018        * A6271118: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x3_5-ApHwp.aml
+18:376  0:018        * A6268A98: 'SSDT', 'HwpLvt', Rev: 2, Len: 744  53 53 44 54 E8 02 00 00 02 B3 50 6D 52 65 66 00 Internal length = 744 -> SSDT-x3_6-HwpLvt.aml
+18:401  0:025  
+18:401  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+18:420  0:018    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40 -> WSMT.aml
+18:438  0:018    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-4-sensrhub.aml
+18:457  0:018    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647 -> SSDT-5-PtidDevc.aml
+18:482  0:024    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+18:500  0:018    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97 -> DBG2.aml
+18:519  0:019    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103 -> SSDT-6-DptfTabl.aml
+18:538  0:018    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+18:557  0:019    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240 -> DMAR.aml
+18:576  0:019    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52 -> TPM2.aml
+18:603  0:026    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56 -> BGRT.aml
+18:621  0:018    Tables in Rsdt: 24
+18:621  0:000    0. A85F01A0: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+18:639  0:017        (Dsdt: A85F0228, Facs: A8F3E140)
+18:639  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120
+18:641  0:002        A8F3E140: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+18:659  0:017    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132
+18:659  0:000    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68
+18:659  0:000    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172
+18:659  0:000    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+18:659  0:000    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56
+18:659  0:000    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878
+18:659  0:000    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40
+18:659  0:000    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842
+18:659  0:000    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+18:659  0:000    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691
+18:659  0:000    11. A8616910: 'UEFI', '', Rev: 1, Len: 66
+18:659  0:000    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+18:659  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+18:659  0:000    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+18:659  0:000    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+18:659  0:000    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+18:659  0:000    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52
+18:659  0:000    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97
+18:659  0:000    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103
+18:659  0:000    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374
+18:659  0:000    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240
+18:659  0:000    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52
+18:659  0:000    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56
+18:659  0:000  Found UEFI Acpi 1.0 RSDP at A85F0000
+18:659  0:000  Printing ACPI tables from RSDP A85F0000 ...
+18:659  0:000   A85F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+18:659  0:000    (Xsdt: A85F00B0, Rsdt: A85F0028)
+18:659  0:000    A85F00B0: 'XSDT', 'CBX3', Rev: 1, Len: 228
+18:659  0:000    A85F0028: 'RSDT', 'CBX3', Rev: 1, Len: 132
+18:659  0:000    Tables in Xsdt: 24
+18:659  0:000    0. A86144C0: 'FACP', 'CBX3', Rev: 5, Len: 268
+18:659  0:000        (Dsdt: A85F0228, Facs: A8F3E180, XDsdt: A85F0228, XFacs: 0)
+18:659  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120
+18:661  0:002        A8F3E180: 'FACS', Ver: 2, Len: 64
+18:661  0:000    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132
+18:661  0:000    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68
+18:661  0:000    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172
+18:661  0:000    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+18:661  0:000    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56
+18:661  0:000    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878
+18:661  0:000    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40
+18:661  0:000    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842
+18:661  0:000    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+18:661  0:000    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691
+18:661  0:000    11. A8616910: 'UEFI', '', Rev: 1, Len: 66
+18:661  0:000    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+18:661  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+18:661  0:000    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+18:661  0:000    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+18:661  0:000    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+18:661  0:000    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52
+18:661  0:000    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97
+18:661  0:000    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103
+18:661  0:000    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374
+18:661  0:000    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240
+18:661  0:000    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52
+18:661  0:000    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56
+18:661  0:000    Tables in Rsdt: 24
+18:661  0:000    0. A85F01A0: 'FACP', 'CBX3', Rev: 2, Len: 132
+18:661  0:000        (Dsdt: A85F0228, Facs: A8F3E140)
+18:661  0:000        A85F0228: 'DSDT', 'CBX3', Rev: 2, Len: 148120
+18:663  0:002        A8F3E140: 'FACS', Ver: 0, Len: 64
+18:663  0:000    1. A86145D0: 'APIC', 'CBX3', Rev: 3, Len: 132
+18:663  0:000    2. A8614658: 'FPDT', 'CBX3', Rev: 1, Len: 68
+18:663  0:000    3. A86146A0: 'FIDT', 'CBX3', Rev: 1, Len: 172
+18:663  0:000    4. A8614750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+18:663  0:000    5. A8614790: 'HPET', 'CBX3', Rev: 1, Len: 56
+18:663  0:000    6. A86147C8: 'SSDT', 'SataTabl', Rev: 1, Len: 878
+18:663  0:000    7. A8614B38: 'BOOT', 'CBX3', Rev: 1, Len: 40
+18:663  0:000    8. A8614B60: 'SSDT', 'SaSsdt', Rev: 2, Len: 4842
+18:663  0:000    9. A8615E50: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+18:663  0:000    10. A8615E88: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 2691
+18:663  0:000    11. A8616910: 'UEFI', '', Rev: 1, Len: 66
+18:663  0:000    12. A8616958: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+18:663  0:000    13. A8617838: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+18:663  0:000    14. A86178D0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+18:663  0:000    15. A86178F8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+18:663  0:000    16. A8617B98: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+18:663  0:000    17. A86189D8: 'DBGP', '', Rev: 1, Len: 52
+18:663  0:000    18. A8618A10: 'DBG2', '', Rev: 0, Len: 97
+18:663  0:000    19. A8618A78: 'SSDT', 'DptfTabl', Rev: 2, Len: 16103
+18:663  0:000    20. A861C960: 'SLIC', 'CBX3', Rev: 3, Len: 374
+18:663  0:000    21. A861CAD8: 'DMAR', 'EDK2', Rev: 1, Len: 240
+18:663  0:000    22. A861CBC8: 'TPM2', 'CBX3', Rev: 3, Len: 52
+18:663  0:000    23. A861CC00: 'BGRT', '', Rev: 0, Len: 56

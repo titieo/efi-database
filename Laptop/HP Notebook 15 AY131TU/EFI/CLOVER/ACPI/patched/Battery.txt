@@ -1,0 +1,213 @@
+into method label B1B2 remove_entry;
+into definitionblock code_regex . insert
+begin
+Method (B1B2, 2, NotSerialized) { Return (Or (Arg0, ShiftLeft (Arg1, 8))) }\n
+end;
+
+into device label H_EC code_regex CPUP,\s+16 replace_matched begin CPU0,8,CPU1,8 end;
+into device label H_EC code_regex BPWR,\s+16 replace_matched begin BPW0,8,BPW1,8 end;
+into device label H_EC code_regex PPWR,\s+16 replace_matched begin PPW0,8,PPW1,8 end;
+into device label H_EC code_regex B1DC,\s+16 replace_matched begin B1D0,8,B1D1,8 end;
+into device label H_EC code_regex B1RC,\s+16 replace_matched begin B1R0,8,B1R1,8 end;
+into device label H_EC code_regex B1FC,\s+16 replace_matched begin B1F0,8,B1F1,8 end;
+into device label H_EC code_regex B1FV,\s+16 replace_matched begin AFV0,8,AFV1,8 end;
+into device label H_EC code_regex B1DI,\s+16 replace_matched begin B1D0,8,B1D1,8 end;
+into device label H_EC code_regex B1CI,\s+16 replace_matched begin B1C0,8,B1C1,8 end;
+into device label H_EC code_regex B2RC,\s+16 replace_matched begin B2R0,8,B2R1,8 end;
+into device label H_EC code_regex B2FC,\s+16 replace_matched begin B2F0,8,B2F1,8 end;
+into device label H_EC code_regex B2FV,\s+16 replace_matched begin QFV0,8,QFV1,8 end;
+into device label H_EC code_regex B2DI,\s+16 replace_matched begin B2D0,8,B2D1,8 end;
+into device label H_EC code_regex B2CI,\s+16 replace_matched begin B2C0,8,B2C1,8 end;
+into device label H_EC code_regex CPAP,\s+16 replace_matched begin CPA0,8,CPA1,8 end;
+into device label H_EC code_regex BKAP,\s+16 replace_matched begin BKA0,8,BKA1,8 end;
+into device label H_EC code_regex PLAP,\s+16 replace_matched begin PLA0,8,PLA1,8 end;
+into device label H_EC code_regex CFSP,\s+16 replace_matched begin CFS0,8,CFS1,8 end;
+into device label H_EC code_regex NPWR,\s+16 replace_matched begin NPW0,8,NPW1,8 end;
+into device label H_EC code_regex ARTG,\s+16 replace_matched begin ART0,8,ART1,8 end;
+into device label H_EC code_regex PBSS,\s+16 replace_matched begin PBS0,8,PBS1,8 end;
+into device label H_EC code_regex BICC,\s+16 replace_matched begin BIC0,8,BIC1,8 end;
+into device label H_EC code_regex CHGR,\s+16 replace_matched begin CHG0,8,CHG1,8 end;
+into device label H_EC code_regex BTEN,\s+16 replace_matched begin BTE0,8,BTE1,8 end;
+into device label H_EC code_regex B2DC,\s+16 replace_matched begin WDC0,8,WDC1,8 end;
+into device label H_EC code_regex B1DV,\s+16 replace_matched begin EDV0,8,EDV1,8 end;
+into device label H_EC code_regex B2DV,\s+16 replace_matched begin RDV0,8,RDV1,8 end;
+into device label H_EC code_regex BMAX,\s+16 replace_matched begin BMA0,8,BMA1,8 end;
+into device label EC0 code_regex ENIB,\s+16 replace_matched begin ENI0,8,ENI1,8 end;
+into device label EC0 code_regex ERIB,\s+16 replace_matched begin RIB0,8,RIB1,8 end;
+into device label EC0 code_regex SMAA,\s+24 replace_matched begin SMA0,8,SMA1,8,SMA2,8 end;
+into device label EC0 code_regex SMD0,\s+256 replace_matched 
+begin
+//SMD0, 256,\n
+SD00,8,SD01,8,SD02,8,SD03,8,\n
+SD04,8,SD05,8,SD06,8,SD07,8,\n
+SD08,8,SD09,8,SD0A,8,SD0B,8,\n
+SD0C,8,SD0D,8,SD0E,8,SD0F,8,\n
+SD10,8,SD11,8,SD12,8,SD13,8,\n
+SD14,8,SD15,8,SD16,8,SD17,8,\n
+SD18,8,SD19,8,SD1A,8,SD1B,8,\n
+SD1C,8,SD1D,8,SD1E,8,SD1F,8
+end;
+into device label H_EC code_regex IWCW,\s+160 replace_matched 
+begin
+//IWCW, 160,\n
+IWC0,8,IWC1,8,IWC2,8,IWC3,8,\n
+IWC4,8,IWC5,8,IWC6,8,IWC7,8,\n
+IWC8,8,IWC9,8,WCWA,8,WCWB,8,\n
+WCWC,8,WCWD,8,WCWE,8,WCWF,8,\n
+WCW0,8,WCW1,8,WCW2,8,WCW3,8,\n
+end;
+into device label H_EC code_regex IWCR,\s+160 replace_matched 
+begin
+//IWCR, 160,\n
+WCR0,8,WCR1,8,WCR2,8,WCR3,8,\n
+WCR4,8,WCR5,8,WCR6,8,WCR7,8,\n
+WCR8,8,WCR9,8,ICRA,8,ICRB,8,\n
+ICRC,8,ICRD,8,ICRE,8,ICRF,8,\n
+ICR0,8,ICR1,8,ICR2,8,ICR3,8,\n
+end;
+
+into method label FANG code_regex \ERIB replaceall_matched begin B1B2(RIB0,RIB1) end;
+into method label FANW code_regex \ERIB replaceall_matched begin B1B2(RIB0,RIB1) end;
+
+into device label EC0 insert
+begin
+Method (RSMD, 0, Serialized)\n
+{\n
+    Name (TEMP, Buffer(0x20) { })\n
+    Store (SD00, Index(TEMP, 0x00))\n
+    Store (SD01, Index(TEMP, 0x01))\n
+    Store (SD02, Index(TEMP, 0x02))\n
+    Store (SD03, Index(TEMP, 0x03))\n
+    Store (SD04, Index(TEMP, 0x04))\n
+    Store (SD05, Index(TEMP, 0x05))\n
+    Store (SD06, Index(TEMP, 0x06))\n
+    Store (SD07, Index(TEMP, 0x07))\n
+    Store (SD08, Index(TEMP, 0x08))\n
+    Store (SD09, Index(TEMP, 0x09))\n
+    Store (SD0A, Index(TEMP, 0x0A))\n
+    Store (SD0B, Index(TEMP, 0x0B))\n
+    Store (SD0C, Index(TEMP, 0x0C))\n
+    Store (SD0D, Index(TEMP, 0x0D))\n
+    Store (SD0E, Index(TEMP, 0x0E))\n
+    Store (SD0F, Index(TEMP, 0x0F))\n
+    Store (SD10, Index(TEMP, 0x10))\n
+    Store (SD11, Index(TEMP, 0x11))\n
+    Store (SD12, Index(TEMP, 0x12))\n
+    Store (SD13, Index(TEMP, 0x13))\n
+    Store (SD14, Index(TEMP, 0x14))\n
+    Store (SD15, Index(TEMP, 0x15))\n
+    Store (SD16, Index(TEMP, 0x16))\n
+    Store (SD17, Index(TEMP, 0x17))\n
+    Store (SD18, Index(TEMP, 0x18))\n
+    Store (SD19, Index(TEMP, 0x19))\n
+    Store (SD1A, Index(TEMP, 0x1A))\n
+    Store (SD1B, Index(TEMP, 0x1B))\n
+    Store (SD1C, Index(TEMP, 0x1C))\n
+    Store (SD1D, Index(TEMP, 0x1D))\n
+    Store (SD1E, Index(TEMP, 0x1E))\n
+    Store (SD1F, Index(TEMP, 0x1F))\n
+    Return (TEMP)\n
+}\n
+end;
+
+into device label EC0 insert
+begin
+Method (WSMD, 1, Serialized)\n
+{\n
+    Name (TEMP, Buffer(0x20) { })\n
+    Store (Arg0, TEMP)\n
+    Store (DerefOf(Index(TEMP, 0x00)), SD00)\n
+    Store (DerefOf(Index(TEMP, 0x01)), SD01)\n
+    Store (DerefOf(Index(TEMP, 0x02)), SD02)\n
+    Store (DerefOf(Index(TEMP, 0x03)), SD03)\n
+    Store (DerefOf(Index(TEMP, 0x04)), SD04)\n
+    Store (DerefOf(Index(TEMP, 0x05)), SD05)\n
+    Store (DerefOf(Index(TEMP, 0x06)), SD06)\n
+    Store (DerefOf(Index(TEMP, 0x07)), SD07)\n
+    Store (DerefOf(Index(TEMP, 0x08)), SD08)\n
+    Store (DerefOf(Index(TEMP, 0x09)), SD09)\n
+    Store (DerefOf(Index(TEMP, 0x0A)), SD0A)\n
+    Store (DerefOf(Index(TEMP, 0x0B)), SD0B)\n
+    Store (DerefOf(Index(TEMP, 0x0C)), SD0C)\n
+    Store (DerefOf(Index(TEMP, 0x0D)), SD0D)\n
+    Store (DerefOf(Index(TEMP, 0x0E)), SD0E)\n
+    Store (DerefOf(Index(TEMP, 0x0F)), SD0F)\n
+    Store (DerefOf(Index(TEMP, 0x10)), SD10)\n
+    Store (DerefOf(Index(TEMP, 0x11)), SD11)\n
+    Store (DerefOf(Index(TEMP, 0x12)), SD12)\n
+    Store (DerefOf(Index(TEMP, 0x13)), SD13)\n
+    Store (DerefOf(Index(TEMP, 0x14)), SD14)\n
+    Store (DerefOf(Index(TEMP, 0x15)), SD15)\n
+    Store (DerefOf(Index(TEMP, 0x16)), SD16)\n
+    Store (DerefOf(Index(TEMP, 0x17)), SD17)\n
+    Store (DerefOf(Index(TEMP, 0x18)), SD18)\n
+    Store (DerefOf(Index(TEMP, 0x19)), SD19)\n
+    Store (DerefOf(Index(TEMP, 0x1A)), SD1A)\n
+    Store (DerefOf(Index(TEMP, 0x1B)), SD1B)\n
+    Store (DerefOf(Index(TEMP, 0x1C)), SD1C)\n
+    Store (DerefOf(Index(TEMP, 0x1D)), SD1D)\n
+    Store (DerefOf(Index(TEMP, 0x1E)), SD1E)\n
+    Store (DerefOf(Index(TEMP, 0x1F)), SD1F)\n
+}\n
+end;
+
+into device label H_EC insert
+begin
+Method (RFL0, 0, Serialized)\n
+{\n
+    Name (TEMP, Buffer(0x10) { })\n
+    Store (IWC0, Index(TEMP, 0x00))\n
+    Store (IWC1, Index(TEMP, 0x01))\n
+    Store (IWC2, Index(TEMP, 0x02))\n
+    Store (IWC3, Index(TEMP, 0x03))\n
+    Store (IWC4, Index(TEMP, 0x04))\n
+    Store (IWC5, Index(TEMP, 0x05))\n
+    Store (IWC6, Index(TEMP, 0x06))\n
+    Store (IWC7, Index(TEMP, 0x07))\n
+    Store (IWC8, Index(TEMP, 0x08))\n
+    Store (IWC9, Index(TEMP, 0x09))\n
+    Store (WCWA, Index(TEMP, 0x10))\n
+    Store (WCWB, Index(TEMP, 0x11))\n
+    Store (WCWC, Index(TEMP, 0x12))\n
+    Store (WCWD, Index(TEMP, 0x13))\n
+    Store (WCWE, Index(TEMP, 0x14))\n
+    Store (WCWF, Index(TEMP, 0x15))\n
+    Store (WCW0, Index(TEMP, 0x16))\n
+    Store (WCW1, Index(TEMP, 0x17))\n
+    Store (WCW2, Index(TEMP, 0x18))\n
+    Store (WCW3, Index(TEMP, 0x19))\n
+    Return (TEMP)\n
+}\n
+end;
+
+into device label H_EC insert
+begin
+/*\n
+Method (WFL0, 1, Serialized)\n
+{\n
+    Name (TEMP, Buffer(0x10) { })\n
+    Store (Arg0, TEMP)\n
+    Store (DerefOf(Index(TEMP, 0x00)), IWC0)\n
+    Store (DerefOf(Index(TEMP, 0x01)), IWC1)\n
+    Store (DerefOf(Index(TEMP, 0x02)), IWC2)\n
+    Store (DerefOf(Index(TEMP, 0x03)), IWC3)\n
+    Store (DerefOf(Index(TEMP, 0x04)), IWC4)\n
+    Store (DerefOf(Index(TEMP, 0x05)), IWC5)\n
+    Store (DerefOf(Index(TEMP, 0x06)), IWC6)\n
+    Store (DerefOf(Index(TEMP, 0x07)), IWC7)\n
+    Store (DerefOf(Index(TEMP, 0x08)), IWC8)\n
+    Store (DerefOf(Index(TEMP, 0x09)), IWC9)\n
+    Store (DerefOf(Index(TEMP, 0x10)), WCWA)\n
+    Store (DerefOf(Index(TEMP, 0x11)), WCWB)\n
+    Store (DerefOf(Index(TEMP, 0x12)), WCWC)\n
+    Store (DerefOf(Index(TEMP, 0x13)), WCWD)\n
+    Store (DerefOf(Index(TEMP, 0x14)), WCWE)\n
+    Store (DerefOf(Index(TEMP, 0x15)), WCWF)\n
+    Store (DerefOf(Index(TEMP, 0x16)), WCW0)\n
+    Store (DerefOf(Index(TEMP, 0x17)), WCW1)\n
+    Store (DerefOf(Index(TEMP, 0x18)), WCW2)\n
+    Store (DerefOf(Index(TEMP, 0x19)), WCW3)\n
+}\n
+*/\n
+end;
+

@@ -1,0 +1,132 @@
+7:175  0:299  Found BIOS RSDP at F0000
+7:175  0:000  Printing ACPI tables from RSDP F0000 ...
+7:175  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:175  0:000    (Xsdt: DAB1F090, Rsdt: DAB1F028)
+7:175  0:000    DAB1F090: 'XSDT', 'Notebook', Rev: 1, Len: 156
+7:175  0:000    DAB1F028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+7:175  0:000    Tables in Xsdt: 15
+7:175  0:000    0. DAB34DB0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:175  0:000        (Dsdt: DAB1F248, Facs: DAB5E080, XDsdt: DAB1F248, XFacs: 0)
+7:175  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:177  0:002        DAB5E080: 'FACS', Ver: 2, Len: 64
+7:177  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:177  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:177  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:177  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:177  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:177  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:178  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:178  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:178  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:178  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:178  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:178  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:178  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:178  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884
+7:178  0:000    Tables in Rsdt: 15
+7:178  0:000    0. DAB1F138: 'FACP', 'Notebook', Rev: 2, Len: 268
+7:178  0:000        (Dsdt: DAB1F248, Facs: DAB5E040)
+7:178  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:180  0:002        DAB5E040: 'FACS', Ver: 0, Len: 64
+7:180  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:180  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:180  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:180  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:180  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:180  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:180  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:180  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:180  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:180  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:180  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:180  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:180  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:180  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884
+7:180  0:000  Found UEFI Acpi 2.0 RSDP at DAB1F000
+7:180  0:000  Saving ACPI tables from RSDP DAB1F000 to EFI\CLOVER\ACPI\origin ...
+7:180  0:000   DAB1F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:180  0:000    (Xsdt: DAB1F090, Rsdt: DAB1F028)
+7:180  0:000    DAB1F090: 'XSDT', 'Notebook', Rev: 1, Len: 156
+7:180  0:000    DAB1F028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+7:180  0:000    Tables in Xsdt: 15
+7:180  0:000    0. DAB34DB0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:180  0:000        (Dsdt: DAB1F248, Facs: DAB5E080, XDsdt: DAB1F248, XFacs: 0)
+7:180  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:182  0:002        DAB5E080: 'FACS', Ver: 2, Len: 64
+7:182  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:182  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:182  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:182  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:182  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:182  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:182  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:182  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:182  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:182  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:182  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:182  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:182  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:182  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884
+7:182  0:000    Tables in Rsdt: 15
+7:182  0:000    0. DAB1F138: 'FACP', 'Notebook', Rev: 2, Len: 268
+7:182  0:000        (Dsdt: DAB1F248, Facs: DAB5E040)
+7:182  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:184  0:002        DAB5E040: 'FACS', Ver: 0, Len: 64
+7:184  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:184  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:184  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:184  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:184  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:184  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:184  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:184  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:184  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:184  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:184  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:184  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:184  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:184  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884
+7:184  0:000  Found UEFI Acpi 1.0 RSDP at DAB1F000
+7:184  0:000  Printing ACPI tables from RSDP DAB1F000 ...
+7:184  0:000   DAB1F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:184  0:000    (Xsdt: DAB1F090, Rsdt: DAB1F028)
+7:184  0:000    DAB1F090: 'XSDT', 'Notebook', Rev: 1, Len: 156
+7:184  0:000    DAB1F028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+7:184  0:000    Tables in Xsdt: 15
+7:184  0:000    0. DAB34DB0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:184  0:000        (Dsdt: DAB1F248, Facs: DAB5E080, XDsdt: DAB1F248, XFacs: 0)
+7:184  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:186  0:002        DAB5E080: 'FACS', Ver: 2, Len: 64
+7:186  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:186  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:186  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:186  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:186  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:186  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:186  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:186  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:186  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:186  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:186  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:186  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:186  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:186  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884
+7:186  0:000    Tables in Rsdt: 15
+7:186  0:000    0. DAB1F138: 'FACP', 'Notebook', Rev: 2, Len: 268
+7:186  0:000        (Dsdt: DAB1F248, Facs: DAB5E040)
+7:186  0:000        DAB1F248: 'DSDT', 'Notebook', Rev: 2, Len: 88936
+7:188  0:002        DAB5E040: 'FACS', Ver: 0, Len: 64
+7:188  0:000    1. DAB34EC0: 'APIC', 'Notebook', Rev: 3, Len: 114
+7:188  0:000    2. DAB34F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:188  0:000    3. DAB34F80: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:188  0:000    4. DAB35048: 'LPIT', 'Notebook', Rev: 1, Len: 92
+7:188  0:000    5. DAB350A8: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+7:188  0:000    6. DAB35220: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:188  0:000    7. DAB35760: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:188  0:000    8. DAB36238: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+7:188  0:000    9. DAB36518: 'SSDT', 'ApTst', Rev: 1, Len: 840
+7:188  0:000    10. DAB36860: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:188  0:000    11. DAB368A0: 'SSDT', 'DptfTabl', Rev: 1, Len: 12355
+7:188  0:000    12. DAB398E8: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:188  0:000    13. DAB39920: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+7:188  0:000    14. DAB39BB8: 'SSDT', 'SaSsdt', Rev: 1, Len: 15884

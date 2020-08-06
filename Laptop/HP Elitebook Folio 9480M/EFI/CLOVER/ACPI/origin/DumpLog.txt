@@ -1,0 +1,71 @@
+33:459  0:266  Found UEFI Acpi 2.0 RSDP at 9BFFE014
+33:459  0:000  Saving ACPI tables from RSDP 9BFFE014 to EFI\CLOVER\ACPI\origin ...
+33:459  0:000   9BFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+33:459  0:000    (Xsdt: 9BFFD0E8, Rsdt: 9BFFD074)
+33:459  0:000    9BFFD0E8: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 164
+33:459  0:000    9BFFD074: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 100
+33:459  0:000    Tables in Xsdt: 16
+33:459  0:000    0. 9BFFB000: 'FACP', '22DA', Rev: 5, Len: 268
+33:459  0:000        (Dsdt: 9BFCF000, Facs: 9BF66000, XDsdt: 9BFCF000, XFacs: 0)
+33:459  0:000        9BFCF000: 'DSDT', '22DA', Rev: 2, Len: 157789
+33:461  0:002        9BF66000: 'FACS', Ver: 1, Len: 64
+33:461  0:000    1. 9BFFA000: 'HPET', '22DA', Rev: 1, Len: 56
+33:461  0:000    2. 9BFF9000: 'APIC', '22DA', Rev: 1, Len: 188
+33:461  0:000    3. 9BFF8000: 'MCFG', '22DA', Rev: 1, Len: 60
+33:461  0:000    4. 9BFF6000: 'TCPA', '22DA', Rev: 2, Len: 50
+33:461  0:000    5. 9BFCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729
+33:461  0:000    6. 9BFCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+33:461  0:000    7. 9BFCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+33:461  0:000    8. 9BFC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+33:461  0:000    9. 9BFC8000: 'FPDT', '22DA', Rev: 1, Len: 68
+33:461  0:000    10. 9BFC7000: 'BGRT', '22DA', Rev: 0, Len: 56
+33:461  0:000    11. 9BFC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348
+33:461  0:000    12. 9BFC3000: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2959
+33:461  0:000    13. 9BFC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469
+33:461  0:000    14. 9BFC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 2323
+33:461  0:000    15. 9BFF7000: 'ASF!', '22DA', Rev: 32, Len: 165
+33:461  0:000    Tables in Rsdt: 16
+33:461  0:000    0. 9BFFB000: 'FACP', '22DA', Rev: 5, Len: 268
+33:461  0:000        (Dsdt: 9BFCF000, Facs: 9BF66000, XDsdt: 9BFCF000, XFacs: 0)
+33:461  0:000        9BFCF000: 'DSDT', '22DA', Rev: 2, Len: 157789
+33:464  0:002        9BF66000: 'FACS', Ver: 1, Len: 64
+33:464  0:000    1. 9BFFA000: 'HPET', '22DA', Rev: 1, Len: 56
+33:464  0:000    2. 9BFF9000: 'APIC', '22DA', Rev: 1, Len: 188
+33:464  0:000    3. 9BFF8000: 'MCFG', '22DA', Rev: 1, Len: 60
+33:464  0:000    4. 9BFF6000: 'TCPA', '22DA', Rev: 2, Len: 50
+33:464  0:000    5. 9BFCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729
+33:464  0:000    6. 9BFCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+33:464  0:000    7. 9BFCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+33:464  0:000    8. 9BFC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+33:464  0:000    9. 9BFC8000: 'FPDT', '22DA', Rev: 1, Len: 68
+33:464  0:000    10. 9BFC7000: 'BGRT', '22DA', Rev: 0, Len: 56
+33:464  0:000    11. 9BFC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348
+33:464  0:000    12. 9BFC3000: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2959
+33:464  0:000    13. 9BFC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469
+33:464  0:000    14. 9BFC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 2323
+33:464  0:000    15. 9BFF7000: 'ASF!', '22DA', Rev: 32, Len: 165
+33:464  0:000  Found UEFI Acpi 1.0 RSDP at 9BFFE000
+33:464  0:000  Printing ACPI tables from RSDP 9BFFE000 ...
+33:464  0:000   9BFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+33:464  0:000    (Rsdt: 9BFFD000)
+33:464  0:000    9BFFD000: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 100
+33:464  0:000    Tables in Rsdt: 16
+33:464  0:000    0. 9BFFC000: 'FACP', '22DA', Rev: 1, Len: 116
+33:464  0:000        (Dsdt: 9BFCF000, Facs: 9BF66000)
+33:464  0:000        9BFCF000: 'DSDT', '22DA', Rev: 2, Len: 157789
+33:467  0:002        9BF66000: 'FACS', Ver: 1, Len: 64
+33:467  0:000    1. 9BFFA000: 'HPET', '22DA', Rev: 1, Len: 56
+33:467  0:000    2. 9BFF9000: 'APIC', '22DA', Rev: 1, Len: 188
+33:467  0:000    3. 9BFF8000: 'MCFG', '22DA', Rev: 1, Len: 60
+33:467  0:000    4. 9BFF6000: 'TCPA', '22DA', Rev: 2, Len: 50
+33:467  0:000    5. 9BFCC000: 'SSDT', 'SataAhci', Rev: 1, Len: 729
+33:467  0:000    6. 9BFCB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+33:467  0:000    7. 9BFCA000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+33:467  0:000    8. 9BFC9000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+33:467  0:000    9. 9BFC8000: 'FPDT', '22DA', Rev: 1, Len: 68
+33:467  0:000    10. 9BFC7000: 'BGRT', '22DA', Rev: 0, Len: 56
+33:467  0:000    11. 9BFC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348
+33:467  0:000    12. 9BFC3000: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2959
+33:467  0:000    13. 9BFC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469
+33:467  0:000    14. 9BFC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 2323
+33:467  0:000    15. 9BFF7000: 'ASF!', '22DA', Rev: 32, Len: 165

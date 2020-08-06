@@ -1,0 +1,162 @@
+29:006  0:197  Found BIOS RSDP at F0140
+29:006  0:000  Printing ACPI tables from RSDP F0140 ...
+29:006  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+29:006  0:000    (Xsdt: 6E6050A8, Rsdt: 6E605028)
+29:006  0:000    6E6050A8: 'XSDT', 'Notebook', Rev: 1, Len: 196
+29:006  0:000    6E605028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+29:006  0:000    Tables in Xsdt: 20
+29:006  0:000    0. 6E62BEC0: 'FACP', 'Notebook', Rev: 5, Len: 268
+29:006  0:000        (Dsdt: 6E605200, Facs: 6F0A2F80, XDsdt: 6E605200, XFacs: 0)
+29:006  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:009  0:002        6F0A2F80: 'FACS', Ver: 2, Len: 64
+29:009  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:009  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:009  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:009  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:009  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:009  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:009  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:009  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:009  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:009  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:009  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:009  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:009  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:009  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:009  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:009  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:009  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:009  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:009  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56
+29:009  0:000    Tables in Rsdt: 20
+29:009  0:000    0. 6E605178: 'FACP', 'Notebook', Rev: 2, Len: 132
+29:009  0:000        (Dsdt: 6E605200, Facs: 6F0A2F40)
+29:009  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:012  0:002        6F0A2F40: 'FACS', Ver: 0, Len: 64
+29:012  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:012  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:012  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:012  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:012  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:012  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:012  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:012  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:012  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:012  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:012  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:012  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:012  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:012  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:012  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:012  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:012  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:012  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:012  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56
+29:012  0:000  Found UEFI Acpi 2.0 RSDP at 6E605000
+29:012  0:000  Saving ACPI tables from RSDP 6E605000 to EFI\CLOVER\ACPI\origin ...
+29:012  0:000   6E605000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+29:012  0:000    (Xsdt: 6E6050A8, Rsdt: 6E605028)
+29:012  0:000    6E6050A8: 'XSDT', 'Notebook', Rev: 1, Len: 196
+29:012  0:000    6E605028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+29:012  0:000    Tables in Xsdt: 20
+29:012  0:000    0. 6E62BEC0: 'FACP', 'Notebook', Rev: 5, Len: 268
+29:012  0:000        (Dsdt: 6E605200, Facs: 6F0A2F80, XDsdt: 6E605200, XFacs: 0)
+29:012  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:015  0:002        6F0A2F80: 'FACS', Ver: 2, Len: 64
+29:015  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:015  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:015  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:015  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:015  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:015  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:015  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:015  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:015  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:015  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:015  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:015  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:015  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:015  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:015  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:015  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:015  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:015  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:015  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56
+29:015  0:000    Tables in Rsdt: 20
+29:015  0:000    0. 6E605178: 'FACP', 'Notebook', Rev: 2, Len: 132
+29:015  0:000        (Dsdt: 6E605200, Facs: 6F0A2F40)
+29:015  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:018  0:002        6F0A2F40: 'FACS', Ver: 0, Len: 64
+29:018  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:018  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:018  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:018  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:018  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:018  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:018  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:018  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:018  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:018  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:018  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:018  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:018  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:018  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:018  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:018  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:018  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:018  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:018  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56
+29:018  0:000  Found UEFI Acpi 1.0 RSDP at 6E605000
+29:018  0:000  Printing ACPI tables from RSDP 6E605000 ...
+29:018  0:000   6E605000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+29:018  0:000    (Xsdt: 6E6050A8, Rsdt: 6E605028)
+29:018  0:000    6E6050A8: 'XSDT', 'Notebook', Rev: 1, Len: 196
+29:018  0:000    6E605028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+29:018  0:000    Tables in Xsdt: 20
+29:018  0:000    0. 6E62BEC0: 'FACP', 'Notebook', Rev: 5, Len: 268
+29:018  0:000        (Dsdt: 6E605200, Facs: 6F0A2F80, XDsdt: 6E605200, XFacs: 0)
+29:018  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:021  0:002        6F0A2F80: 'FACS', Ver: 2, Len: 64
+29:021  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:021  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:021  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:021  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:021  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:021  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:021  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:021  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:021  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:021  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:021  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:021  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:021  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:021  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:021  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:021  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:021  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:021  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:021  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56
+29:021  0:000    Tables in Rsdt: 20
+29:021  0:000    0. 6E605178: 'FACP', 'Notebook', Rev: 2, Len: 132
+29:021  0:000        (Dsdt: 6E605200, Facs: 6F0A2F40)
+29:021  0:000        6E605200: 'DSDT', 'Notebook', Rev: 2, Len: 158910
+29:023  0:002        6F0A2F40: 'FACS', Ver: 0, Len: 64
+29:023  0:000    1. 6E62BFD0: 'APIC', 'Notebook', Rev: 3, Len: 188
+29:024  0:000    2. 6E62C090: 'FPDT', 'Notebook', Rev: 1, Len: 68
+29:024  0:000    3. 6E62C0D8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+29:024  0:000    4. 6E62C178: 'MCFG', 'Notebook', Rev: 1, Len: 60
+29:024  0:000    5. 6E62C1B8: 'HPET', 'Notebook', Rev: 1, Len: 56
+29:024  0:000    6. 6E62C1F0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+29:024  0:000    7. 6E62C508: 'ECDT', 'Notebook', Rev: 1, Len: 193
+29:024  0:000    8. 6E62C5D0: 'LPIT', 'SKL', Rev: 1, Len: 148
+29:024  0:000    9. 6E62C668: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+29:024  0:000    10. 6E62C8B0: 'DBGP', '', Rev: 1, Len: 52
+29:024  0:000    11. 6E62C8E8: 'DBG2', '', Rev: 0, Len: 84
+29:024  0:000    12. 6E62C940: 'SSDT', 'DptfTabl', Rev: 2, Len: 15782
+29:024  0:000    13. 6E6306E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 26320
+29:024  0:000    14. 6E636DB8: 'UEFI', '', Rev: 1, Len: 66
+29:024  0:000    15. 6E636E00: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+29:024  0:000    16. 6E637C78: 'SSDT', 'SgPeg', Rev: 2, Len: 165
+29:024  0:000    17. 6E637D20: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+29:024  0:000    18. 6E637D58: 'SSDT', 'OptTabl', Rev: 1, Len: 6719
+29:024  0:000    19. 6E639798: 'BGRT', 'Notebook', Rev: 1, Len: 56

@@ -1,0 +1,74 @@
+6:491  5:374  Found UEFI Acpi 2.0 RSDP at 89D0D014
+6:491  0:000  Saving ACPI tables from RSDP 89D0D014 to EFI\CLOVER\ACPI\origin ...
+6:491  0:000   89D0D014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+6:564  0:073    (Xsdt: 89CEE188, Rsdt: 89CEE0C4)
+6:564  0:000    89CEE188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 244 -> XSDT.aml
+6:630  0:066    89CEE0C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 140 -> RSDT.aml
+6:702  0:071    Tables in Xsdt: 26
+6:702  0:000    0. 89CF0000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
+6:764  0:062        (Dsdt: 89CB3000, Facs: 89C2D000, XDsdt: 89CB3000, XFacs: 0)
+6:764  0:000        89CB3000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 226251 -> DSDT.aml
+6:851  0:087        89C2D000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+6:903  0:051    1. 89D0C000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
+7:003  0:099    2. 89D0A000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 6101 -> SSDT-0-ACRPRDCT.aml (Found hidden SSDT 7 pcs)
+7:067  0:064        * 89574318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1503  53 53 44 54 DF 05 00 00 02 40 50 6D 52 65 66 00 Internal length = 1503 -> SSDT-x0_0-Cpu0Ist.aml
+7:127  0:060        * 8952B018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 F3 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x0_1-ApIst.aml
+7:186  0:058        * 8952A018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 DF 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+7:251  0:064        * 8952CA98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 EF 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+7:324  0:073        * 89574998: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 A5 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x0_4-Cpu0Hwp.aml
+7:389  0:064        * 8952A698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+7:447  0:058        * 8952C018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 D0 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+7:517  0:069  
+7:517  0:000    3. 89D06000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12743 -> SSDT-1-ACRPRDCT.aml
+7:589  0:072    4. 89D04000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 7624 -> SSDT-2-ACRPRDCT.aml
+7:669  0:079    5. 89D03000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66 -> UEFI.aml
+7:736  0:067    6. 89D02000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1114 -> SSDT-3-ACRPRDCT.aml
+7:810  0:073    7. 89D01000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70 -> SSDT-4-ACRPRDCT.aml
+7:876  0:066    8. 89D00000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52 -> TPM2.aml
+7:983  0:106    9. 89CFF000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 92 -> LPIT.aml
+8:053  0:069    10. 89CFE000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40 -> WSMT.aml
+8:116  0:063    11. 89CFD000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3119 -> SSDT-5-ACRPRDCT.aml
+8:186  0:070    12. 89CFC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 4027 -> SSDT-6-ACRPRDCT.aml
+8:268  0:081    13. 89CFB000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52 -> DBGP.aml
+8:333  0:064    14. 89CFA000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84 -> DBG2.aml
+8:406  0:072    15. 89CF9000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 2932 -> SSDT-7-ACRPRDCT.aml
+8:469  0:063    16. 89CF3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 22721 -> SSDT-8-ACRPRDCT.aml
+8:549  0:079    17. 89CF2000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85 -> MSDM.aml
+8:624  0:074    18. 89CF1000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+8:685  0:061    19. 89CEF000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+8:757  0:072    20. 89CED000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 300 -> APIC.aml
+8:855  0:098    21. 89CEC000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+8:931  0:075    22. 89CAE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 17628 -> SSDT-9-ACRPRDCT.aml
+9:021  0:090    23. 89CEB000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 168 -> DMAR.aml
+9:103  0:081    24. 89CAD000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
+9:190  0:087    25. 89CAC000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
+9:277  0:086    Tables in Rsdt: 26
+9:277  0:000    0. 89CF0000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+9:277  0:000        (Dsdt: 89CB3000, Facs: 89C2D000, XDsdt: 89CB3000, XFacs: 0)
+9:277  0:000        89CB3000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 226251
+9:279  0:002        89C2D000: 'FACS', Ver: 2, Len: 64
+9:279  0:000    1. 89D0C000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+9:279  0:000    2. 89D0A000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 6101
+9:279  0:000    3. 89D06000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12743
+9:279  0:000    4. 89D04000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 7624
+9:279  0:000    5. 89D03000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+9:279  0:000    6. 89D02000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1114
+9:279  0:000    7. 89D01000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+9:279  0:000    8. 89D00000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+9:279  0:000    9. 89CFF000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 92
+9:279  0:000    10. 89CFE000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+9:279  0:000    11. 89CFD000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3119
+9:279  0:000    12. 89CFC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 4027
+9:279  0:000    13. 89CFB000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+9:279  0:000    14. 89CFA000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+9:279  0:000    15. 89CF9000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 2932
+9:279  0:000    16. 89CF3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 22721
+9:279  0:000    17. 89CF2000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+9:279  0:000    18. 89CF1000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+9:279  0:000    19. 89CEF000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+9:279  0:000    20. 89CED000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 300
+9:279  0:000    21. 89CEC000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+9:279  0:000    22. 89CAE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 17628
+9:279  0:000    23. 89CEB000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 168
+9:279  0:000    24. 89CAD000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+9:279  0:000    25. 89CAC000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56

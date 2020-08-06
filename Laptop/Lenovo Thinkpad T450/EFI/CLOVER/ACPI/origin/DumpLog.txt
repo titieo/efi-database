@@ -1,0 +1,156 @@
+10:510  2:796  Found BIOS RSDP at %p
+10:510  0:000  Printing ACPI tables from RSDP %p ...
+10:510  0:000   %p: 'RSD PTR …LENOVOüàßÌ$', Rev: -1032277369 (Acpi 2.0 or newer), Len: 36
+10:510  0:000    (Xsdt: %p, Rsdt: %p)
+10:510  0:000    %p: 'XSDTÜ', 'XSDT', Rev: -1032277545, Len: 1
+10:510  0:000    %p: 'RSDT€', 'RSDT', Rev: -1032277545, Len: 1
+10:510  0:000    Tables in Xsdt: 23
+10:510  0:000    0. %p: 'FACP', 'FACP', Rev: -1032277545, Len: 5
+10:510  0:000        (Dsdt: CCDE3000, Facs: CCD68000, XDsdt: ccde3000, XFacs: 0)
+10:510  0:000        %p: 'DSDT¥', 'DSDT', Rev: -1032277689, Len: 2
+10:511  0:000        %p: 'FACS@', Ver: -1032277525, Len: 2
+10:511  0:000    1. %p: 'SLICv', 'SLIC', Rev: -1032277545, Len: 1
+10:511  0:000    2. %p: 'ASF!¥', 'ASF!', Rev: -1032277545, Len: 32
+10:511  0:000    3. %p: 'HPET8', 'HPET', Rev: -1032277545, Len: 1
+10:511  0:000    4. %p: 'ECDTR', 'ECDT', Rev: -1032277545, Len: 1
+10:511  0:000    5. %p: 'APIC˜', 'APIC', Rev: -1032277545, Len: 1
+10:511  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -1032277545, Len: 1
+10:511  0:000    7. %p: 'SSDT3', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    8. %p: 'SSDT†', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    9. %p: 'SSDTË	', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    10. %p: 'SSDTR', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    11. %p: 'SSDTÉ', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    13. %p: 'SSDTi', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    14. %p: 'SSDTu', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -1032277545, Len: 5
+10:511  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1032277545, Len: 1
+10:511  0:000    19. %p: 'MSDMU', 'MSDM', Rev: -1032277545, Len: 3
+10:511  0:000    20. %p: 'BATBJ', 'BATB', Rev: -1032277545, Len: 2
+10:511  0:000    21. %p: 'FPDTd', 'FPDT', Rev: -1032277545, Len: 1
+10:511  0:000    22. %p: 'UEFI', 'UEFI', Rev: -1032277545, Len: 1
+10:511  0:000    Tables in Rsdt: 23
+10:511  0:000    0. %p: 'FACP', 'FACP', Rev: -1032277545, Len: 5
+10:511  0:000        (Dsdt: CCDE3000, Facs: CCD68000, XDsdt: ccde3000, XFacs: 0)
+10:511  0:000        %p: 'DSDT¥', 'DSDT', Rev: -1032277689, Len: 2
+10:511  0:000        %p: 'FACS@', Ver: -1032277525, Len: 2
+10:511  0:000    1. %p: 'SLICv', 'SLIC', Rev: -1032277545, Len: 1
+10:511  0:000    2. %p: 'ASF!¥', 'ASF!', Rev: -1032277545, Len: 32
+10:511  0:000    3. %p: 'HPET8', 'HPET', Rev: -1032277545, Len: 1
+10:511  0:000    4. %p: 'ECDTR', 'ECDT', Rev: -1032277545, Len: 1
+10:511  0:000    5. %p: 'APIC˜', 'APIC', Rev: -1032277545, Len: 1
+10:511  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -1032277545, Len: 1
+10:511  0:000    7. %p: 'SSDT3', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    8. %p: 'SSDT†', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    9. %p: 'SSDTË	', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    10. %p: 'SSDTR', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    11. %p: 'SSDTÉ', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    13. %p: 'SSDTi', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    14. %p: 'SSDTu', 'SSDT', Rev: -1032277545, Len: 1
+10:511  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -1032277545, Len: 5
+10:511  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -1032277545, Len: 2
+10:511  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1032277545, Len: 1
+10:511  0:000    19. %p: 'MSDMU', 'MSDM', Rev: -1032277545, Len: 3
+10:511  0:000    20. %p: 'BATBJ', 'BATB', Rev: -1032277545, Len: 2
+10:511  0:000    21. %p: 'FPDTd', 'FPDT', Rev: -1032277545, Len: 1
+10:511  0:000    22. %p: 'UEFI', 'UEFI', Rev: -1032277545, Len: 1
+10:511  0:000  Found UEFI Acpi 2.0 RSDP at %p
+10:511  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä²…ä¹…å™Éîƒ¼ì³Ÿ$ ...
+10:511  0:000   %p: 'RSD PTR …LENOVOüàßÌ$', Rev: -1032277369 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:520  0:009    (Xsdt: %p, Rsdt: %p)
+10:520  0:000    %p: 'XSDTÜ', 'XSDT', Rev: -1032277545, Len: 1 -> XSDT.aml
+10:530  0:009    %p: 'RSDT€', 'RSDT', Rev: -1032277545, Len: 1 -> RSDT.aml
+10:539  0:009    Tables in Xsdt: 23
+10:539  0:000    0. %p: 'FACP', 'FACP', Rev: -1032277545, Len: 5 -> FACP.aml
+10:549  0:009        (Dsdt: CCDE3000, Facs: CCD68000, XDsdt: ccde3000, XFacs: 0)
+10:549  0:000        %p: 'DSDT¥', 'DSDT', Rev: -1032277689, Len: 2 -> DSDT.aml
+10:560  0:011        %p: 'FACS@', Ver: -1032277525, Len: 2 -> FACS.aml
+10:569  0:009    1. %p: 'SLICv', 'SLIC', Rev: -1032277545, Len: 1 -> SLIC.aml
+10:579  0:009    2. %p: 'ASF!¥', 'ASF!', Rev: -1032277545, Len: 32 -> ASF!.aml
+10:589  0:010    3. %p: 'HPET8', 'HPET', Rev: -1032277545, Len: 1 -> HPET.aml
+10:599  0:009    4. %p: 'ECDTR', 'ECDT', Rev: -1032277545, Len: 1 -> ECDT.aml
+10:608  0:009    5. %p: 'APIC˜', 'APIC', Rev: -1032277545, Len: 1 -> APIC.aml
+10:618  0:009    6. %p: 'MCFG<', 'MCFG', Rev: -1032277545, Len: 1 -> MCFG.aml
+10:627  0:009    7. %p: 'SSDT3', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-0.aml
+10:637  0:009    8. %p: 'SSDT†', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-1.aml
+10:646  0:009    9. %p: 'SSDTË	', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-2.aml
+10:655  0:009    10. %p: 'SSDTR', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-3.aml
+10:665  0:009    11. %p: 'SSDTÉ', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-4.aml
+10:674  0:009    12. %p: 'SSDTt', 'SSDT', Rev: -1032277545, Len: 2 -> SSDT-5.aml
+10:684  0:009    13. %p: 'SSDTi', 'SSDT', Rev: -1032277545, Len: 2 -> SSDT-6.aml
+10:693  0:009    14. %p: 'SSDTu', 'SSDT', Rev: -1032277545, Len: 1 -> SSDT-7.aml
+10:703  0:009    15. %p: 'SSDT”', 'SSDT', Rev: -1032277545, Len: 2 -> SSDT-8.aml
+10:712  0:009    16. %p: 'PCCTn', 'PCCT', Rev: -1032277545, Len: 5 -> PCCT.aml
+10:721  0:009    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -1032277545, Len: 2 -> SSDT-9.aml
+10:732  0:010    18. %p: 'UEFIB', 'UEFI', Rev: -1032277545, Len: 1 -> UEFI.aml
+10:742  0:009    19. %p: 'MSDMU', 'MSDM', Rev: -1032277545, Len: 3 -> MSDM.aml
+10:751  0:009    20. %p: 'BATBJ', 'BATB', Rev: -1032277545, Len: 2 -> BATB.aml
+10:760  0:009    21. %p: 'FPDTd', 'FPDT', Rev: -1032277545, Len: 1 -> FPDT.aml
+10:770  0:009    22. %p: 'UEFI', 'UEFI', Rev: -1032277545, Len: 1 -> UEFI.aml
+10:785  0:015    Tables in Rsdt: 23
+10:785  0:000    0. %p: 'FACP', 'FACP', Rev: -1032277545, Len: 5
+10:785  0:000        (Dsdt: CCDE3000, Facs: CCD68000, XDsdt: ccde3000, XFacs: 0)
+10:785  0:000        %p: 'DSDT¥', 'DSDT', Rev: -1032277689, Len: 2
+10:786  0:000        %p: 'FACS@', Ver: -1032277525, Len: 2
+10:786  0:000    1. %p: 'SLICv', 'SLIC', Rev: -1032277545, Len: 1
+10:786  0:000    2. %p: 'ASF!¥', 'ASF!', Rev: -1032277545, Len: 32
+10:786  0:000    3. %p: 'HPET8', 'HPET', Rev: -1032277545, Len: 1
+10:786  0:000    4. %p: 'ECDTR', 'ECDT', Rev: -1032277545, Len: 1
+10:786  0:000    5. %p: 'APIC˜', 'APIC', Rev: -1032277545, Len: 1
+10:786  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -1032277545, Len: 1
+10:786  0:000    7. %p: 'SSDT3', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    8. %p: 'SSDT†', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    9. %p: 'SSDTË	', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    10. %p: 'SSDTR', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    11. %p: 'SSDTÉ', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    12. %p: 'SSDTt', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    13. %p: 'SSDTi', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    14. %p: 'SSDTu', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -1032277545, Len: 5
+10:786  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1032277545, Len: 1
+10:786  0:000    19. %p: 'MSDMU', 'MSDM', Rev: -1032277545, Len: 3
+10:786  0:000    20. %p: 'BATBJ', 'BATB', Rev: -1032277545, Len: 2
+10:786  0:000    21. %p: 'FPDTd', 'FPDT', Rev: -1032277545, Len: 1
+10:786  0:000    22. %p: 'UEFI', 'UEFI', Rev: -1032277545, Len: 1
+10:786  0:000  Found UEFI Acpi 1.0 RSDP at %p
+10:786  0:000  Printing ACPI tables from RSDP %p ...
+10:786  0:000   %p: 'RSD PTR KLENOVO', Rev: -1032277369 (Acpi 1.0), Len: 20
+10:786  0:000    (Rsdt: %p)
+10:786  0:000    %p: 'RSDT|', 'RSDT', Rev: -1032277545, Len: 1
+10:786  0:000    Tables in Rsdt: 22
+10:786  0:000    0. %p: 'FACPt', 'FACP', Rev: -1032277545, Len: 1
+10:786  0:000        (Dsdt: CCDE3000, Facs: CCD68000)
+10:786  0:000        %p: 'DSDT¥', 'DSDT', Rev: -1032277689, Len: 2
+10:786  0:000        %p: 'FACS@', Ver: -1032277525, Len: 2
+10:786  0:000    1. %p: 'ASF!¥', 'ASF!', Rev: -1032277545, Len: 32
+10:786  0:000    2. %p: 'HPET8', 'HPET', Rev: -1032277545, Len: 1
+10:786  0:000    3. %p: 'ECDTR', 'ECDT', Rev: -1032277545, Len: 1
+10:786  0:000    4. %p: 'APIC˜', 'APIC', Rev: -1032277545, Len: 1
+10:786  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1032277545, Len: 1
+10:786  0:000    6. %p: 'SSDT3', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    7. %p: 'SSDT†', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    8. %p: 'SSDTË	', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    9. %p: 'SSDTR', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    10. %p: 'SSDTÉ', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    11. %p: 'SSDTt', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    12. %p: 'SSDTi', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    13. %p: 'SSDTu', 'SSDT', Rev: -1032277545, Len: 1
+10:786  0:000    14. %p: 'SSDT”', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    15. %p: 'PCCTn', 'PCCT', Rev: -1032277545, Len: 5
+10:786  0:000    16. %p: 'SSDTÄ
+', 'SSDT', Rev: -1032277545, Len: 2
+10:786  0:000    17. %p: 'UEFIB', 'UEFI', Rev: -1032277545, Len: 1
+10:786  0:000    18. %p: 'MSDMU', 'MSDM', Rev: -1032277545, Len: 3
+10:786  0:000    19. %p: 'BATBJ', 'BATB', Rev: -1032277545, Len: 2
+10:786  0:000    20. %p: 'FPDTd', 'FPDT', Rev: -1032277545, Len: 1
+10:786  0:000    21. %p: 'UEFI', 'UEFI', Rev: -1032277545, Len: 1

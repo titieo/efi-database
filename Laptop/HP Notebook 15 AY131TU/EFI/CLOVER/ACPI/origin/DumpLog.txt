@@ -1,0 +1,86 @@
+7:808  6:755  Found UEFI Acpi 2.0 RSDP at 8CEFD014
+7:808  0:000  Saving ACPI tables from RSDP 8CEFD014 to EFI\CLOVER\ACPI\origin ...
+7:808  0:000   8CEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:813  0:005    (Xsdt: 8CEAC188, Rsdt: 8CEAC0C4)
+7:813  0:000    8CEAC188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 292 -> XSDT.aml
+7:817  0:003    8CEAC0C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 164 -> RSDT.aml
+7:821  0:004    Tables in Xsdt: 32
+7:821  0:000    0. 8CEDD000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+7:825  0:003        (Dsdt: 8CEB1000, Facs: 8CE59000, XDsdt: 8CEB1000, XFacs: 0)
+7:825  0:000        8CEB1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 164629 -> DSDT.aml
+7:832  0:006        8CE59000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:836  0:004    1. 8CEFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 566 -> UEFI.aml
+7:839  0:003    2. 8CEFB000: 'UEFI', 'INSYDE', Rev: 1, Len: 66 -> UEFI.aml
+7:843  0:004    3. 8CEF3000: 'SSDT', 'INSYDE', Rev: 1, Len: 30439 -> SSDT-0-INSYDE.aml
+7:847  0:004    4. 8CEF1000: 'SSDT', 'INSYDE', Rev: 2, Len: 1224 -> SSDT-1-INSYDE.aml
+7:851  0:003    5. 8CEF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 70 -> SSDT-2-INSYDE.aml
+7:855  0:003    6. 8CEEF000: 'TPM2', 'INSYDE', Rev: 3, Len: 52 -> TPM2.aml
+7:859  0:003    7. 8CEEB000: 'SSDT', 'INSYDE', Rev: 2, Len: 14212 -> SSDT-3-INSYDE.aml
+7:862  0:003    8. 8CEE2000: 'SSDT', 'INSYDE', Rev: 2, Len: 33986 -> SSDT-4-INSYDE.aml
+7:868  0:005    9. 8CEE1000: 'ASF!', 'INSYDE', Rev: 32, Len: 165 -> ASF!.aml
+7:871  0:003    10. 8CEE0000: 'ASPT', 'INSYDE', Rev: 7, Len: 52 -> ASPT.aml
+7:875  0:003    11. 8CEDF000: 'BOOT', 'INSYDE', Rev: 1, Len: 40 -> BOOT.aml
+7:879  0:003    12. 8CEDE000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+7:883  0:004    13. 8CEDC000: 'HPET', 'INSYDE', Rev: 1, Len: 56 -> HPET.aml
+7:887  0:003    14. 8CEDB000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 188 -> APIC.aml
+7:890  0:003    15. 8CEDA000: 'MCFG', 'INSYDE', Rev: 1, Len: 60 -> MCFG.aml
+7:894  0:003    16. 8CEB0000: 'SSDT', 'INSYDE', Rev: 2, Len: 3706 -> SSDT-5-INSYDE.aml
+7:898  0:004    17. 8CEAF000: 'SSDT', 'INSYDE', Rev: 2, Len: 444 -> SSDT-6-INSYDE.aml
+7:902  0:003    18. 8CEAE000: 'SSDT', 'INSYDE', Rev: 2, Len: 398 -> SSDT-7-INSYDE.aml
+7:905  0:003    19. 8CEAD000: 'LPIT', 'INSYDE', Rev: 1, Len: 148 -> LPIT.aml
+7:909  0:003    20. 8CEAB000: 'WSMT', 'INSYDE', Rev: 1, Len: 40 -> WSMT.aml
+7:913  0:003    21. 8CEAA000: 'SSDT', 'INSYDE', Rev: 2, Len: 671 -> SSDT-8-INSYDE.aml
+7:917  0:004    22. 8CEA9000: 'SSDT', 'INSYDE', Rev: 1, Len: 838 -> SSDT-9-INSYDE.aml
+7:920  0:003    23. 8CEA5000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290 -> SSDT-10-INSYDE.aml
+7:923  0:003    24. 8CEA4000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310 -> SSDT-11-INSYDE.aml
+7:927  0:003    25. 8CEA3000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+7:930  0:003    26. 8CEA2000: 'DBG2', 'INSYDE', Rev: 0, Len: 84 -> DBG2.aml
+7:933  0:003    27. 8CEA0000: 'SSDT', 'INSYDE', Rev: 2, Len: 4202 -> SSDT-12-INSYDE.aml
+7:937  0:003    28. 8CE9F000: 'SSDT', 'INSYDE', Rev: 2, Len: 3806 -> SSDT-13-INSYDE.aml (Found hidden SSDT 7 pcs)
+7:941  0:003        * 8C6B5018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x13_0-Cpu0Ist.aml
+7:944  0:003        * 8C6B4018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x13_1-ApIst.aml
+7:947  0:003        * 8C6B4898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x13_2-Cpu0Cst.aml
+7:951  0:003        * 8C6B4DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x13_3-ApCst.aml
+7:954  0:003        * 7C9F6E58: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x13_4-Cpu0Hwp.aml
+7:958  0:003        * 7C9F7218: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x13_5-ApHwp.aml
+7:962  0:003        * 7C9F5DD8: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x13_6-HwpLvt.aml
+7:966  0:003  
+7:966  0:000    29. 8CE9E000: 'DMAR', 'INSYDE', Rev: 1, Len: 168 -> DMAR.aml
+7:969  0:003    30. 8CE9D000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+7:972  0:003    31. 8CE9C000: 'BGRT', 'INSYDE', Rev: 1, Len: 56 -> BGRT.aml
+7:975  0:003    Tables in Rsdt: 32
+7:975  0:000    0. 8CEDD000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+7:975  0:000        (Dsdt: 8CEB1000, Facs: 8CE59000, XDsdt: 8CEB1000, XFacs: 0)
+7:975  0:000        8CEB1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 164629
+7:979  0:003        8CE59000: 'FACS', Ver: 2, Len: 64
+7:979  0:000    1. 8CEFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 566
+7:979  0:000    2. 8CEFB000: 'UEFI', 'INSYDE', Rev: 1, Len: 66
+7:979  0:000    3. 8CEF3000: 'SSDT', 'INSYDE', Rev: 1, Len: 30439
+7:979  0:000    4. 8CEF1000: 'SSDT', 'INSYDE', Rev: 2, Len: 1224
+7:979  0:000    5. 8CEF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 70
+7:979  0:000    6. 8CEEF000: 'TPM2', 'INSYDE', Rev: 3, Len: 52
+7:979  0:000    7. 8CEEB000: 'SSDT', 'INSYDE', Rev: 2, Len: 14212
+7:979  0:000    8. 8CEE2000: 'SSDT', 'INSYDE', Rev: 2, Len: 33986
+7:979  0:000    9. 8CEE1000: 'ASF!', 'INSYDE', Rev: 32, Len: 165
+7:979  0:000    10. 8CEE0000: 'ASPT', 'INSYDE', Rev: 7, Len: 52
+7:979  0:000    11. 8CEDF000: 'BOOT', 'INSYDE', Rev: 1, Len: 40
+7:979  0:000    12. 8CEDE000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+7:979  0:000    13. 8CEDC000: 'HPET', 'INSYDE', Rev: 1, Len: 56
+7:979  0:000    14. 8CEDB000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 188
+7:979  0:000    15. 8CEDA000: 'MCFG', 'INSYDE', Rev: 1, Len: 60
+7:979  0:000    16. 8CEB0000: 'SSDT', 'INSYDE', Rev: 2, Len: 3706
+7:979  0:000    17. 8CEAF000: 'SSDT', 'INSYDE', Rev: 2, Len: 444
+7:979  0:000    18. 8CEAE000: 'SSDT', 'INSYDE', Rev: 2, Len: 398
+7:979  0:000    19. 8CEAD000: 'LPIT', 'INSYDE', Rev: 1, Len: 148
+7:979  0:000    20. 8CEAB000: 'WSMT', 'INSYDE', Rev: 1, Len: 40
+7:979  0:000    21. 8CEAA000: 'SSDT', 'INSYDE', Rev: 2, Len: 671
+7:979  0:000    22. 8CEA9000: 'SSDT', 'INSYDE', Rev: 1, Len: 838
+7:979  0:000    23. 8CEA5000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290
+7:979  0:000    24. 8CEA4000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310
+7:979  0:000    25. 8CEA3000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+7:979  0:000    26. 8CEA2000: 'DBG2', 'INSYDE', Rev: 0, Len: 84
+7:979  0:000    27. 8CEA0000: 'SSDT', 'INSYDE', Rev: 2, Len: 4202
+7:979  0:000    28. 8CE9F000: 'SSDT', 'INSYDE', Rev: 2, Len: 3806
+7:979  0:000    29. 8CE9E000: 'DMAR', 'INSYDE', Rev: 1, Len: 168
+7:979  0:000    30. 8CE9D000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+7:979  0:000    31. 8CE9C000: 'BGRT', 'INSYDE', Rev: 1, Len: 56

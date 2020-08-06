@@ -1,0 +1,102 @@
+10:225  3:589  Found BIOS RSDP at F0000
+10:225  0:000  Printing ACPI tables from RSDP F0000 ...
+10:225  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:225  0:000    (Xsdt: CA858078, Rsdt: CA858028)
+10:225  0:000    CA858078: 'XSDT', 'Notebook', Rev: 1, Len: 116
+10:225  0:000    CA858028: 'RSDT', 'Notebook', Rev: 1, Len: 76
+10:225  0:000    Tables in Xsdt: 10
+10:225  0:000    0. CA86B740: 'FACP', 'Notebook', Rev: 5, Len: 268
+10:225  0:000        (Dsdt: CA858188, Facs: CA883080, XDsdt: CA858188, XFacs: 0)
+10:225  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:228  0:002        CA883080: 'FACS', Ver: 2, Len: 64
+10:228  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:228  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:228  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:228  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:228  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:228  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:228  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:228  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:228  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+10:228  0:000    Tables in Rsdt: 10
+10:228  0:000    0. CA858100: 'FACP', 'Notebook', Rev: 2, Len: 132
+10:228  0:000        (Dsdt: CA858188, Facs: CA883040)
+10:228  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:231  0:002        CA883040: 'FACS', Ver: 0, Len: 64
+10:231  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:231  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:231  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:231  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:231  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:231  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:231  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:231  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:231  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+10:231  0:000  Found UEFI Acpi 2.0 RSDP at CA858000
+10:231  0:000  Saving ACPI tables from RSDP CA858000 to EFI\CLOVER\ACPI\origin ...
+10:231  0:000   CA858000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:231  0:000    (Xsdt: CA858078, Rsdt: CA858028)
+10:231  0:000    CA858078: 'XSDT', 'Notebook', Rev: 1, Len: 116
+10:231  0:000    CA858028: 'RSDT', 'Notebook', Rev: 1, Len: 76
+10:231  0:000    Tables in Xsdt: 10
+10:231  0:000    0. CA86B740: 'FACP', 'Notebook', Rev: 5, Len: 268
+10:231  0:000        (Dsdt: CA858188, Facs: CA883080, XDsdt: CA858188, XFacs: 0)
+10:231  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:234  0:002        CA883080: 'FACS', Ver: 2, Len: 64
+10:234  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:234  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:234  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:234  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:234  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:234  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:234  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:234  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:234  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+10:234  0:000    Tables in Rsdt: 10
+10:234  0:000    0. CA858100: 'FACP', 'Notebook', Rev: 2, Len: 132
+10:234  0:000        (Dsdt: CA858188, Facs: CA883040)
+10:234  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:237  0:002        CA883040: 'FACS', Ver: 0, Len: 64
+10:237  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:237  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:237  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:237  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:237  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:237  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:237  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:237  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:237  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+10:237  0:000  Found UEFI Acpi 1.0 RSDP at CA858000
+10:237  0:000  Printing ACPI tables from RSDP CA858000 ...
+10:237  0:000   CA858000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:237  0:000    (Xsdt: CA858078, Rsdt: CA858028)
+10:237  0:000    CA858078: 'XSDT', 'Notebook', Rev: 1, Len: 116
+10:237  0:000    CA858028: 'RSDT', 'Notebook', Rev: 1, Len: 76
+10:237  0:000    Tables in Xsdt: 10
+10:237  0:000    0. CA86B740: 'FACP', 'Notebook', Rev: 5, Len: 268
+10:237  0:000        (Dsdt: CA858188, Facs: CA883080, XDsdt: CA858188, XFacs: 0)
+10:237  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:240  0:002        CA883080: 'FACS', Ver: 2, Len: 64
+10:240  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:240  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:240  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:240  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:240  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:240  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:240  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:240  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:240  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+10:240  0:000    Tables in Rsdt: 10
+10:240  0:000    0. CA858100: 'FACP', 'Notebook', Rev: 2, Len: 132
+10:240  0:000        (Dsdt: CA858188, Facs: CA883040)
+10:240  0:000        CA858188: 'DSDT', 'Notebook', Rev: 2, Len: 79281
+10:243  0:002        CA883040: 'FACS', Ver: 0, Len: 64
+10:243  0:000    1. CA86B850: 'APIC', 'Notebook', Rev: 3, Len: 114
+10:243  0:000    2. CA86B8C8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+10:243  0:000    3. CA86B910: 'ECDT', 'Notebook', Rev: 1, Len: 193
+10:243  0:000    4. CA86B9D8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+10:243  0:000    5. CA86BA18: 'HPET', 'Notebook', Rev: 1, Len: 56
+10:243  0:000    6. CA86BA50: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+10:243  0:000    7. CA86C088: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+10:243  0:000    8. CA86C528: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+10:243  0:000    9. CA86CE38: 'SSDT', 'CpuPm', Rev: 1, Len: 2840

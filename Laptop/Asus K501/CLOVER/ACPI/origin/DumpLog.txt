@@ -1,0 +1,168 @@
+6:486  0:587  Found BIOS RSDP at FD940
+6:486  0:000  Printing ACPI tables from RSDP FD940 ...
+6:486  0:000   FD940: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:486  0:000    (Xsdt: 993920A8, Rsdt: 99392028)
+6:486  0:000    993920A8: 'XSDT', 'Notebook', Rev: 1, Len: 204
+6:486  0:000    99392028: 'RSDT', 'Notebook', Rev: 1, Len: 120
+6:486  0:000    Tables in Xsdt: 21
+6:486  0:000    0. 993A9708: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:486  0:000        (Dsdt: 99392210, Facs: 9A41DF80, XDsdt: 99392210, XFacs: 0)
+6:486  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:487  0:001        9A41DF80: 'FACS', Ver: 2, Len: 64
+6:487  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:487  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:487  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:487  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:487  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:487  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:487  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:487  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:487  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:487  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:487  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:487  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:487  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:487  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:487  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:487  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:487  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:487  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:487  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:487  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
+6:487  0:000    Tables in Rsdt: 21
+6:487  0:000    0. 99392188: 'FACP', 'Notebook', Rev: 2, Len: 132
+6:487  0:000        (Dsdt: 99392210, Facs: 9A41DF40)
+6:487  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:488  0:001        9A41DF40: 'FACS', Ver: 0, Len: 64
+6:488  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:488  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:488  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:488  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:488  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:488  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:488  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:488  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:488  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:488  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:488  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:488  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:488  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:488  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:488  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:488  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:488  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:488  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:488  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:488  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
+6:488  0:000  Found UEFI Acpi 2.0 RSDP at 99392000
+6:488  0:000  Saving ACPI tables from RSDP 99392000 to EFI\CLOVER\ACPI\origin ...
+6:488  0:000   99392000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:488  0:000    (Xsdt: 993920A8, Rsdt: 99392028)
+6:488  0:000    993920A8: 'XSDT', 'Notebook', Rev: 1, Len: 204
+6:488  0:000    99392028: 'RSDT', 'Notebook', Rev: 1, Len: 120
+6:488  0:000    Tables in Xsdt: 21
+6:488  0:000    0. 993A9708: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:488  0:000        (Dsdt: 99392210, Facs: 9A41DF80, XDsdt: 99392210, XFacs: 0)
+6:488  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:489  0:001        9A41DF80: 'FACS', Ver: 2, Len: 64
+6:489  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:489  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:489  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:489  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:489  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:489  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:489  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:489  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:489  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:489  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:489  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:489  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:489  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:489  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:489  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:489  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:489  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:489  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:489  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:489  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
+6:489  0:000    Tables in Rsdt: 21
+6:489  0:000    0. 99392188: 'FACP', 'Notebook', Rev: 2, Len: 132
+6:489  0:000        (Dsdt: 99392210, Facs: 9A41DF40)
+6:489  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:490  0:001        9A41DF40: 'FACS', Ver: 0, Len: 64
+6:490  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:490  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:490  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:490  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:490  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:490  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:490  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:490  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:490  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:490  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:490  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:490  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:490  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:490  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:490  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:490  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:490  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:490  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:490  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:490  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
+6:490  0:000  Found UEFI Acpi 1.0 RSDP at 99392000
+6:490  0:000  Printing ACPI tables from RSDP 99392000 ...
+6:490  0:000   99392000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:490  0:000    (Xsdt: 993920A8, Rsdt: 99392028)
+6:490  0:000    993920A8: 'XSDT', 'Notebook', Rev: 1, Len: 204
+6:490  0:000    99392028: 'RSDT', 'Notebook', Rev: 1, Len: 120
+6:490  0:000    Tables in Xsdt: 21
+6:490  0:000    0. 993A9708: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:490  0:000        (Dsdt: 99392210, Facs: 9A41DF80, XDsdt: 99392210, XFacs: 0)
+6:490  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:491  0:001        9A41DF80: 'FACS', Ver: 2, Len: 64
+6:491  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:491  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:491  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:491  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:491  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:491  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:491  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:491  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:491  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:491  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:491  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:491  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:491  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:491  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:491  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:491  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:491  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:491  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:491  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:491  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
+6:491  0:000    Tables in Rsdt: 21
+6:491  0:000    0. 99392188: 'FACP', 'Notebook', Rev: 2, Len: 132
+6:491  0:000        (Dsdt: 99392210, Facs: 9A41DF40)
+6:491  0:000        99392210: 'DSDT', 'Notebook', Rev: 2, Len: 95475
+6:492  0:001        9A41DF40: 'FACS', Ver: 0, Len: 64
+6:492  0:000    1. 993A9818: 'APIC', 'Notebook', Rev: 3, Len: 132
+6:492  0:000    2. 993A98A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:492  0:000    3. 993A98E8: 'FIDT', 'Notebook', Rev: 1, Len: 156
+6:492  0:000    4. 993A9988: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:492  0:000    5. 993A9A50: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:492  0:000    6. 993A9A90: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:492  0:000    7. 993A9AC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+6:492  0:000    8. 993A9DE0: 'UEFI', '', Rev: 1, Len: 66
+6:492  0:000    9. 993A9E28: 'ASF!', ' HCG', Rev: 32, Len: 160
+6:492  0:000    10. 993A9EC8: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+6:492  0:000    11. 993AA408: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+6:492  0:000    12. 993AAF80: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+6:492  0:000    13. 993AE1C8: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+6:492  0:000    14. 993AE560: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+6:492  0:000    15. 993AE5D0: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+6:492  0:000    16. 993AF098: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+6:492  0:000    17. 993B5DB8: 'SSDT', 'SgPch', Rev: 2, Len: 1765
+6:492  0:000    18. 993B64A0: 'DMAR', 'BDW', Rev: 1, Len: 168
+6:493  0:000    19. 993B6548: 'BGRT', 'Notebook', Rev: 1, Len: 56
+6:493  0:000    20. 993B6580: 'SSDT', 'OptTabl', Rev: 1, Len: 6515
