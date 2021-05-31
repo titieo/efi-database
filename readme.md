@@ -14,6 +14,7 @@
 + I3-9100 + Asrock B365 Phantom Gaming 4 (lzhoang2601)
 + I5-9600K + B365M Aorus Elite (lzhoang2601)
 + Samsung AIO (lzhoang2601)
++ Ryzen 7 1700 + RX570 + Asrock x370 (https://github.com/Tiemon-hoi)
 ## Desktop (iGPU + dGPU)
 + I7-9700K + Z390 GAMING X
 + I9-9900K + Asus Z390-PRO GAMING + RT5700XT
